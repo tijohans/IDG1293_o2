@@ -1,3 +1,5 @@
+# IDG1293 Assignment 2
+
 Assignment 2 consists of two parts:
 
 Part 1 - Design for Animation
@@ -6,7 +8,7 @@ Part 2 - Introduction to GitHub, CSS Architecture and Accessibility
 
 
 
-Part 1 - Design for Animation 
+## Part 1 - Design for Animation 
 
 In this part, you need to deliver a high fidelity sketch/prototype of Assignment 3.
 
@@ -25,7 +27,7 @@ Imagine that you are a group of designers who could not pitch and present their 
 
 
 
-Part 2 - Introduction to GitHub, CSS Architecture and Accessibility
+## Part 2 - Introduction to GitHub, CSS Architecture and Accessibility
 
 The second part of the Assignment proves your ability to use GitHub and build CSS Architecture.
 
