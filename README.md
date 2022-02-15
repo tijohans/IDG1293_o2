@@ -57,3 +57,4 @@ How is it going to be graded?
 As a group and individual group member, you need to fulfil the above points + I will be looking at contributor insights and I will look at your commits. All group members must contribute to the readme file and commit an animated square from their own GitHub account.
 
 
+
