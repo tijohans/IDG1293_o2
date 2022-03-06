@@ -19,3 +19,5 @@ If you need need help contact one of the contributors.
 The technology we are using for this project is mainly SCSS and the Intersecton Observer API for javascript. We are using SCSS to style all the visible parts of the project, and create the animations which is used on the website. We are using Intersection Observer to observe different elements and check if they are inside the viewport, and when they are inside the viewport we can select them to be animated.
 
 ## Who maintains and contributes to the project
+
+The project is mainly maintaned by the three of us who made the project. There are in total three contributors to this project, tijohans, DanielLillevik, and StormHansael.
