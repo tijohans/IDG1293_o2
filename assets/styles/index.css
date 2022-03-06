@@ -1,1 +1,93 @@
-/* No CSS *//*# sourceMappingURL=index.css.map */
+@-webkit-keyframes tsquare {
+  0% {
+    left: 0px;
+  }
+  25% {
+    left: 200px;
+    -webkit-transform: rotate(45deg);
+            transform: rotate(45deg);
+  }
+  50% {
+    left: -200px;
+    -webkit-transform: rotate(90deg);
+            transform: rotate(90deg);
+  }
+  75% {
+    left: 200px;
+    -webkit-transform: rotate(120deg);
+            transform: rotate(120deg);
+  }
+  100% {
+    left: 0px;
+  }
+}
+
+@keyframes tsquare {
+  0% {
+    left: 0px;
+  }
+  25% {
+    left: 200px;
+    -webkit-transform: rotate(45deg);
+            transform: rotate(45deg);
+  }
+  50% {
+    left: -200px;
+    -webkit-transform: rotate(90deg);
+            transform: rotate(90deg);
+  }
+  75% {
+    left: 200px;
+    -webkit-transform: rotate(120deg);
+            transform: rotate(120deg);
+  }
+  100% {
+    left: 0px;
+  }
+}
+
+.tsquare-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 50vh;
+}
+
+.tsquare-container .tsquare {
+  background-color: #F8B;
+  height: 200px;
+  width: 200px;
+  position: relative;
+  -webkit-animation: tsquare;
+          animation: tsquare;
+  -webkit-animation-duration: 4s;
+          animation-duration: 4s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+}
+
+@media (prefers-reduced-motion) {
+  .tsquare-container .tsquare {
+    -webkit-animation: none;
+            animation: none;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  .tsquare-container {
+    background-color: #444;
+  }
+}
+
+@media (orientation: portrait) {
+  .tsquare-container {
+    background-color: #ddd;
+  }
+}
+/*# sourceMappingURL=index.css.map */
