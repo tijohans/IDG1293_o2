@@ -90,6 +90,33 @@
 }
 
 
+.dcube-cont{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 45vh;
+  width: 45vh;
+}
+
+.dcube{
+  position: relative;
+  width: 150px;
+  height: 150px;
+  background: blue;
+  animation: dcube;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes dcube {
+  0% {left: 0px};
+  20% {left: 200px; transform: rotate(100deg);};
+  40% {left: 400px; transform: rotate(200deg);};
+  60% {left: 600px; transform: rotate(300deg);};
+  80% {left: 400px; transform: rotate(200deg);};
+  100% {left: 0px;}
+}
+
 
 @media (prefers-reduced-motion) {
     .tsquare-container .tsquare .storm_square .ss_top .ss_front .ss_side{
