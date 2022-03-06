@@ -1,2 +1,45 @@
 @import "_colors.scss";
 
+@keyframes tsquare {
+    0% {left: 0px};
+    25% {left: 200px; transform: rotate(45deg);};
+    50% {left: -200px; transform: rotate(90deg);};
+    75% {left: 200px; transform: rotate(120deg);};
+    100% {left: 0px;}
+}
+
+.tsquare-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+
+    .tsquare {
+        background-color: #F8B;
+        height: 200px;
+        width: 200px;
+        position: relative;
+        animation: tsquare;
+        animation-duration: 4s;
+        animation-iteration-count: infinite;
+    }
+}
+
+
+@media (prefers-reduced-motion) {
+    .tsquare-container .tsquare {
+        animation: none;
+    }
+}
+
+@media (prefers-color-scheme: dark) {
+    .tsquare-container {
+        background-color: #444;
+    }
+}
+
+@media (orientation: portrait) {
+    .tsquare-container {
+        background-color: #ddd;
+    }
+}
