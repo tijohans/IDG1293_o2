@@ -8,6 +8,28 @@
     100% {left: 0px;}
 }
 
+@keyframes ss_anim {
+    0% {
+      top: 0px;
+      left: 0px;
+    }
+    25% {
+      left: -50px;
+    }
+    50% {
+      top: 100px;
+      left: -50px;
+    }
+    75% {
+      top: 50px;
+      left: 0px;
+    }
+    100% {
+      top: 50px;
+      left: 50px;
+    }
+  }
+
 .tsquare-container{
     display: flex;
     justify-content: center;
@@ -25,21 +47,66 @@
     }
 }
 
+.storm_square {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    margin: 0px auto;
+    margin-top: 100px;
+    animation-name: ss_anim;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+
+    .ss_top{
+        width:100px;
+        height:100px;
+        background:$storm-square_color;
+        border:solid 2px #FFF;
+        transform: skew(180deg,210deg);
+        position: absolute;
+        top: 43px;
+        }
+        .ss_front{
+        width:100px;
+        height:100px;
+        background:$storm-square_color;
+        border:solid 2px #FFF;
+        transform: skew(180deg,150deg);
+        position: absolute;
+        left:102px;
+        top: 43px;
+        }
+        .ss_side{
+        width:114px;
+        height:100px;
+        background:$storm-square_color;
+        border:solid 2px #FFF;
+    
+        transform: rotate(150deg) translate(-40px, -16px) skew(30deg, 0deg);
+        position: absolute;
+        left: 0px;
+        top: -32px;
+        }
+}
+
+
 
 @media (prefers-reduced-motion) {
-    .tsquare-container .tsquare {
+    .tsquare-container .tsquare .storm_square .ss_top .ss_front .ss_side{
         animation: none;
     }
 }
 
 @media (prefers-color-scheme: dark) {
-    .tsquare-container {
+    .tsquare-container .storm_square .ss_top .ss_front .ss_side {
         background-color: #444;
     }
+    
 }
 
 @media (orientation: portrait) {
-    .tsquare-container {
+    .tsquare-container .storm_square .ss_top .ss_front .ss_side {
         background-color: #ddd;
     }
+    
 }
