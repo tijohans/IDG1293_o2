@@ -19,7 +19,7 @@ To get started with this project there is no need for a download or installation
 If you find a problem with our website, there are a few ways you can contact us. 
 You could write to us on github, or send a mail to either of our addresses:
 
-- tijoahns@stud.ntnu.no
+- tijohans@stud.ntnu.no
 - stormoh@stud.ntnu.no
 - danilil@stud.ntnu.no
 
