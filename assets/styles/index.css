@@ -148,30 +148,13 @@
   }
 }
 
-@media (prefers-reduced-motion) {
-  .tsquare-container .tsquare,
-  .storm_square,
-  .dcube {
-    -webkit-animation: none;
-            animation: none;
-  }
+body {
+  margin: 0;
+  padding: 0;
 }
 
-@media (prefers-color-scheme: dark) {
-  .squares-container {
-    background-color: #444;
-  }
-  .tsquare {
-    background-color: #9b486c;
-  }
-}
-
-@media (orientation: portrait) {
-  .tsquare-container,
-  .storm_square,
-  .dcube-cont {
-    background-color: #ddd;
-  }
+.squares-container {
+  background-color: #ccddff;
 }
 
 .tsquare-container {
@@ -274,5 +257,29 @@
           animation-duration: 6s;
   -webkit-animation-iteration-count: infinite;
           animation-iteration-count: infinite;
+}
+
+@media (prefers-reduced-motion) {
+  .tsquare-container .tsquare,
+  .storm_square,
+  .dcube {
+    -webkit-animation: none;
+            animation: none;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  .squares-container {
+    background-color: #223;
+  }
+  .tsquare {
+    background-color: #9b486c;
+  }
+}
+
+@media (orientation: portrait) {
+  .squares-container {
+    background-color: #e29060;
+  }
 }
 /*# sourceMappingURL=index.css.map */

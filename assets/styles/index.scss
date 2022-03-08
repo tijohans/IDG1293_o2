@@ -1,7 +1,14 @@
 @import "_colors.scss";
 @import "_animations.scss";
-@import "_accessibility.scss";
 
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.squares-container {
+    background-color: $background-color-light;
+}
 
 .tsquare-container {
   display: flex;
@@ -10,7 +17,7 @@
   height: 50vh;
 
   .tsquare {
-    background-color: #F8B;
+    background-color: $tsquare-color;
     height: 200px;
     width: 200px;
     position: relative;
@@ -77,8 +84,36 @@
   position: relative;
   width: 150px;
   height: 150px;
-  background: blue;
+  background: $dcube-color;
   animation: dcube;
   animation-duration: 6s;
   animation-iteration-count: infinite;
+}
+
+
+// ------------------------------ Media queries below ---------------------------------
+@media (prefers-reduced-motion) {
+  .tsquare-container .tsquare,
+  .storm_square,
+  .dcube {
+      animation: none;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  .squares-container {
+      background-color: $background-color-dark;
+      // $background-color-dark
+  }
+  
+  .tsquare { 
+    background-color: $tsquare-color-dark;
+  }
+}
+
+@media (orientation: portrait) {
+  .squares-container {
+      background-color: $background-color-portrait;
+  }
+  
 }
