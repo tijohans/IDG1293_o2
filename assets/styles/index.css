@@ -183,7 +183,7 @@ body {
           animation-iteration-count: infinite;
 }
 
-.storm_square {
+.square__storm {
   position: relative;
   width: 200px;
   height: 200px;
@@ -197,7 +197,7 @@ body {
           animation-iteration-count: infinite;
 }
 
-.storm_square .ss_top {
+.square__storm .square__storm__top {
   width: 100px;
   height: 100px;
   background: #191970;
@@ -208,7 +208,7 @@ body {
   top: 43px;
 }
 
-.storm_square .ss_front {
+.square__storm .square__storm__front {
   width: 100px;
   height: 100px;
   background: #191970;
@@ -220,7 +220,7 @@ body {
   top: 43px;
 }
 
-.storm_square .ss_side {
+.square__storm .square__storm__side {
   width: 114px;
   height: 100px;
   background: #191970;
@@ -232,7 +232,7 @@ body {
   top: -32px;
 }
 
-.dcube-cont {
+.square__daniel__container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -246,7 +246,7 @@ body {
   width: 45vh;
 }
 
-.dcube {
+.square__daniel {
   position: relative;
   width: 150px;
   height: 150px;
