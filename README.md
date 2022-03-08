@@ -10,10 +10,10 @@ This project is created as part of assignment 2 in the course Advanced CSS IDG12
 This project is useful because it highlights the goal in an interactive way which gets people engaged.
 
 ## How users can get started with the project
-To get startet with the project check out the website.
+To get startet with the project check out the website we made about the UN Sustainable Development goal 14 about life below water. You could also read more about the diffrent goals at the UN Sustainable Development website. (https://sdgs.un.org) 
 
 ## Where users can get help with your project
-If you need need help contact one of the contributors.
+If you need need help contact one of the contributors via github or by mail to stormoh@stud.ntnu.no 
 
 ## Which technology is used
 
