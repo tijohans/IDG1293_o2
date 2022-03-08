@@ -17,7 +17,9 @@ If you need need help contact one of the contributors via github or by mail to s
 
 ## Which technology is used
 
-The technology we are using for this project is mainly SCSS and the Intersecton Observer API for javascript. We are using SCSS to style all the visible parts of the project, and create the animations which is used on the website. We are using Intersection Observer to observe different elements and check if they are inside the viewport, and when they are inside the viewport we can select them to be animated.
+The technology we are using for this project is mainly SCSS and the Intersecton Observer API for javascript. We are using SCSS to style all the visible parts of the project, and create the animations which is used on the website. We are using Intersection Observer to observe different elements and check if they are inside the viewport, and when they are inside the viewport we can select them to be animated. 
+
+For our SCSS we use a naming convention called BEM, which stands for **B**lock **E**lement **M**odifier. This is a naming convention which allows us to be more consistent with our class names, and overall makes the css more readable.
 
 ## Who maintains and contributes to the project
 
