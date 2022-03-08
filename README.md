@@ -7,6 +7,7 @@ Goal 14 is about conserving and sustaining use the oceans, seas and marine resou
 This project is created as part of assignment 2 in the course Advanced CSS IDG1293. It is created to show our scrollytelling abilities while also highlighting one of UN's sustainable development goals. We chose to highlight goal 14 which is about conserving and sustaining the life in the oceans, sea and the marine life for sustainable development.
 
 ## Why the project is useful
+This project is useful because it highlights the goal in an interactive way which gets people engaged.
 
 ## How users can get started with the project
 To get startet with the project check out the website.
