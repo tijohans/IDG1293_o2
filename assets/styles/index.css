@@ -170,7 +170,7 @@ body {
   height: 50vh;
 }
 
-.square__thor__container .square__thor {
+.square__thor {
   background-color: #F8B;
   height: 200px;
   width: 200px;
@@ -260,25 +260,25 @@ body {
 }
 
 @media (prefers-reduced-motion) {
-  .tsquare-container .tsquare,
-  .storm_square,
-  .dcube {
+  .square__storm,
+  .square__thor,
+  .square__daniel {
     -webkit-animation: none;
             animation: none;
   }
 }
 
 @media (prefers-color-scheme: dark) {
-  .squares-container {
+  .square__container {
     background-color: #223;
   }
-  .tsquare {
+  .square__thor {
     background-color: #9b486c;
   }
 }
 
 @media (orientation: portrait) {
-  .squares-container {
+  .square__container {
     background-color: #e29060;
   }
 }

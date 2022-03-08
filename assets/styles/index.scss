@@ -17,16 +17,16 @@ body {
   justify-content: center;
   align-items: center;
   height: 50vh;
+}
 
-  .square__thor {
-    background-color: $tsquare-color;
-    height: 200px;
-    width: 200px;
-    position: relative;
-    animation: tsquare;
-    animation-duration: 4s;
-    animation-iteration-count: infinite;
-  }
+.square__thor {
+  background-color: $tsquare-color;
+  height: 200px;
+  width: 200px;
+  position: relative;
+  animation: tsquare;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
 }
 
 .square__storm {
@@ -95,26 +95,26 @@ body {
 
 // ------------------------------ Media queries below ---------------------------------
 @media (prefers-reduced-motion) {
-  .tsquare-container .tsquare,
-  .storm_square,
-  .dcube {
+  .square__storm,
+  .square__thor,
+  .square__daniel {
       animation: none;
   }
 }
 
 @media (prefers-color-scheme: dark) {
-  .squares-container {
+  .square__container {
       background-color: $background-color-dark;
       // $background-color-dark
   }
   
-  .tsquare { 
+  .square__thor { 
     background-color: $tsquare-color-dark;
   }
 }
 
 @media (orientation: portrait) {
-  .squares-container {
+  .square__container {
       background-color: $background-color-portrait;
   }
   
