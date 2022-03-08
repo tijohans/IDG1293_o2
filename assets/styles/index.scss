@@ -1,8 +1,5 @@
-@import "./seperations/_colors.scss";
-@import "./seperations/_animations.scss";
-@import "./seperations/_typography.scss";
-@import "./seperations/_layout.scss";
-
+@import "_colors.scss";
+@import "_animations.scss";
 
 body {
   margin: 0;
@@ -30,7 +27,7 @@ body {
   }
 }
 
-.storm_square {
+.square__storm {
   position: relative;
   width: 200px;
   height: 200px;
@@ -40,7 +37,7 @@ body {
   animation-duration: 5s;
   animation-iteration-count: infinite;
 
-  .ss_top {
+  .square__storm__top {
     width: 100px;
     height: 100px;
     background: $storm-square_color;
@@ -50,7 +47,7 @@ body {
     top: 43px;
   }
 
-  .ss_front {
+  .square__storm__front {
     width: 100px;
     height: 100px;
     background: $storm-square_color;
@@ -61,7 +58,7 @@ body {
     top: 43px;
   }
 
-  .ss_side {
+  .square__storm__side {
     width: 114px;
     height: 100px;
     background: $storm-square_color;
