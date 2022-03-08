@@ -6,17 +6,17 @@ body {
   padding: 0;
 }
 
-.squares-container {
+.square__container {
     background-color: $background-color-light;
 }
 
-.tsquare-container {
+.square__thor__container{
   display: flex;
   justify-content: center;
   align-items: center;
   height: 50vh;
 
-  .tsquare {
+  .square__thor {
     background-color: $tsquare-color;
     height: 200px;
     width: 200px;
