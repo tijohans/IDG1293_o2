@@ -1,19 +1,27 @@
 # UN's sustainable development goals; Goal 14
 
-Goal 14 is about conserving and sustaining use the oceans, seas and marine resources for sustainable development
+Goal 14 is about conserving and sustaining the use of the oceans, seas and marine resources for sistainable development.
 
 ## What the project does
 
-This project is created as part of assignment 2 in the course Advanced CSS IDG1293. It is created to show our scrollytelling abilities while also highlighting one of UN's sustainable development goals. We chose to highlight goal 14 which is about conserving and sustaining the life in the oceans, sea and the marine life for sustainable development.
+This project is created as part of assignment 2 in the course Advanced CSS IDG1293. It is created to show our scrollytelling abilities while also highlighting one of UN's sustainable development goals. We chose to highlight goal 14 which is about conserving and sustaining the use of the oceans, seas and marine resources for sistainable development. The project works by the user scrolling down on a website, which will trigger different animations based on the goal we chose. The user will also be presented with facts about the different goals. 
 
 ## Why the project is useful
-This project is useful because it highlights the goal in an interactive way which gets people engaged.
+
+This projects highlights one of UN's sustainable development goals, which is an important thing to highlight for todays youth. By creating this site we help increase awarness in an intereactive and fun way, by showcasing it with different animations alongside the information we provide.
 
 ## How users can get started with the project
-To get startet with the project check out the website we made about the UN Sustainable Development goal 14 about life below water. You could also read more about the diffrent goals at the UN Sustainable Development website. (https://sdgs.un.org) 
+
+To get started with this project there is no need for a download or installation. You just have to visit out website; **link to website which is not yet up**. If you want to get more information about goal 14 You could also visit the UN Sustainable Development website. (https://sdgs.un.org) 
 
 ## Where users can get help with your project
-If you need need help contact one of the contributors via github or by mail to stormoh@stud.ntnu.no.
+
+If you find a problem with our website, there are a few ways you can contact us. 
+You could write to us on github, or send a mail to either of our addresses:
+    - tijoahns@stud.ntnu.no
+    - stormoh@stud.ntnu.no
+    - danilil@stud.ntnu.no
+You could also create a pull request right here on the github repo.
 
 ## Which technology is used
 
