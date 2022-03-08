@@ -1,5 +1,8 @@
-@import "_colors.scss";
-@import "_animations.scss";
+@import "./seperations/_colors.scss";
+@import "./seperations/_animations.scss";
+@import "./seperations/_typography.scss";
+@import "./seperations/_layout.scss";
+
 
 body {
   margin: 0;
