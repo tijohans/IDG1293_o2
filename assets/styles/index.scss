@@ -1,7 +1,6 @@
-@import "./seperations/_colors.scss";
-@import "./seperations/_animations.scss";
-@import "./seperations/_typography.scss";
-@import "./seperations/_layout.scss";
+@use "./abstracts/colors";
+@use "./abstracts/fonts";
+@use "./seperations/animations";
 
 body {
   margin: 0;
@@ -9,7 +8,7 @@ body {
 }
 
 .square__container {
-    background-color: $background-color-light;
+    background-color: colors.$background-color-light;
 }
 
 .square__thor__container{
@@ -20,7 +19,7 @@ body {
 }
 
 .square__thor {
-  background-color: $tsquare-color;
+  background-color: colors.$tsquare-color;
   height: 200px;
   width: 200px;
   position: relative;
@@ -42,7 +41,7 @@ body {
   .square__storm__top {
     width: 100px;
     height: 100px;
-    background: $storm-square_color;
+    background: colors.$storm-square_color;
     border: solid 2px #FFF;
     transform: skew(180deg, 210deg);
     position: absolute;
@@ -52,7 +51,7 @@ body {
   .square__storm__front {
     width: 100px;
     height: 100px;
-    background: $storm-square_color;
+    background: colors.$storm-square_color;
     border: solid 2px #FFF;
     transform: skew(180deg, 150deg);
     position: absolute;
@@ -63,7 +62,7 @@ body {
   .square__storm__side {
     width: 114px;
     height: 100px;
-    background: $storm-square_color;
+    background: colors.$storm-square_color;
     border: solid 2px #FFF;
 
     transform: rotate(150deg) translate(-40px, -16px) skew(30deg, 0deg);
@@ -86,15 +85,14 @@ body {
   position: relative;
   width: 150px;
   height: 150px;
-  background: $dcube-color;
+  background: colors.$dcube-color;
   animation: dcube;
   animation-duration: 6s;
   animation-iteration-count: infinite;
 }
 
-
-// ------------------------------ Media queries below ---------------------------------
 @media (prefers-reduced-motion) {
+
   .square__storm,
   .square__thor,
   .square__daniel {
@@ -104,18 +102,18 @@ body {
 
 @media (prefers-color-scheme: dark) {
   .square__container {
-      background-color: $background-color-dark;
+      background-color: colors.$background-color-dark;
       // $background-color-dark
   }
-  
-  .square__thor { 
-    background-color: $tsquare-color-dark;
+
+  .square__thor {
+      background-color: colors.$tsquare-color-dark;
   }
 }
 
 @media (orientation: portrait) {
   .square__container {
-      background-color: $background-color-portrait;
+      background-color: colors.$background-color-portrait;
   }
-  
+
 }
