@@ -4,48 +4,40 @@
   }
   25% {
     left: 200px;
-    -webkit-transform: rotate(45deg);
-            transform: rotate(45deg);
+    transform: rotate(45deg);
   }
   50% {
     left: -200px;
-    -webkit-transform: rotate(90deg);
-            transform: rotate(90deg);
+    transform: rotate(90deg);
   }
   75% {
     left: 200px;
-    -webkit-transform: rotate(120deg);
-            transform: rotate(120deg);
+    transform: rotate(120deg);
   }
   100% {
     left: 0px;
   }
 }
-
 @keyframes tsquare {
   0% {
     left: 0px;
   }
   25% {
     left: 200px;
-    -webkit-transform: rotate(45deg);
-            transform: rotate(45deg);
+    transform: rotate(45deg);
   }
   50% {
     left: -200px;
-    -webkit-transform: rotate(90deg);
-            transform: rotate(90deg);
+    transform: rotate(90deg);
   }
   75% {
     left: 200px;
-    -webkit-transform: rotate(120deg);
-            transform: rotate(120deg);
+    transform: rotate(120deg);
   }
   100% {
     left: 0px;
   }
 }
-
 @-webkit-keyframes ss_anim {
   0% {
     top: 0px;
@@ -67,7 +59,6 @@
     left: 50px;
   }
 }
-
 @keyframes ss_anim {
   0% {
     top: 0px;
@@ -89,65 +80,54 @@
     left: 50px;
   }
 }
-
 @-webkit-keyframes dcube {
   0% {
     left: 0px;
   }
   20% {
     left: 200px;
-    -webkit-transform: rotate(100deg);
-            transform: rotate(100deg);
+    transform: rotate(100deg);
   }
   40% {
     left: 400px;
-    -webkit-transform: rotate(200deg);
-            transform: rotate(200deg);
+    transform: rotate(200deg);
   }
   60% {
     left: 600px;
-    -webkit-transform: rotate(300deg);
-            transform: rotate(300deg);
+    transform: rotate(300deg);
   }
   80% {
     left: 400px;
-    -webkit-transform: rotate(200deg);
-            transform: rotate(200deg);
+    transform: rotate(200deg);
   }
   100% {
     left: 0px;
   }
 }
-
 @keyframes dcube {
   0% {
     left: 0px;
   }
   20% {
     left: 200px;
-    -webkit-transform: rotate(100deg);
-            transform: rotate(100deg);
+    transform: rotate(100deg);
   }
   40% {
     left: 400px;
-    -webkit-transform: rotate(200deg);
-            transform: rotate(200deg);
+    transform: rotate(200deg);
   }
   60% {
     left: 600px;
-    -webkit-transform: rotate(300deg);
-            transform: rotate(300deg);
+    transform: rotate(300deg);
   }
   80% {
     left: 400px;
-    -webkit-transform: rotate(200deg);
-            transform: rotate(200deg);
+    transform: rotate(200deg);
   }
   100% {
     left: 0px;
   }
 }
-
 body {
   margin: 0;
   padding: 0;
@@ -158,15 +138,9 @@ body {
 }
 
 .square__thor__container {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: center;
+  align-items: center;
   height: 50vh;
 }
 
@@ -196,52 +170,40 @@ body {
   -webkit-animation-iteration-count: infinite;
           animation-iteration-count: infinite;
 }
-
 .square__storm .square__storm__top {
   width: 100px;
   height: 100px;
   background: #191970;
   border: solid 2px #FFF;
-  -webkit-transform: skew(180deg, 210deg);
-          transform: skew(180deg, 210deg);
+  transform: skew(180deg, 210deg);
   position: absolute;
   top: 43px;
 }
-
 .square__storm .square__storm__front {
   width: 100px;
   height: 100px;
   background: #191970;
   border: solid 2px #FFF;
-  -webkit-transform: skew(180deg, 150deg);
-          transform: skew(180deg, 150deg);
+  transform: skew(180deg, 150deg);
   position: absolute;
   left: 102px;
   top: 43px;
 }
-
 .square__storm .square__storm__side {
   width: 114px;
   height: 100px;
   background: #191970;
   border: solid 2px #FFF;
-  -webkit-transform: rotate(150deg) translate(-40px, -16px) skew(30deg, 0deg);
-          transform: rotate(150deg) translate(-40px, -16px) skew(30deg, 0deg);
+  transform: rotate(150deg) translate(-40px, -16px) skew(30deg, 0deg);
   position: absolute;
   left: 0px;
   top: -32px;
 }
 
 .square__daniel__container {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: center;
+  align-items: center;
   height: 45vh;
   width: 45vh;
 }
@@ -261,25 +223,23 @@ body {
 
 @media (prefers-reduced-motion) {
   .square__storm,
-  .square__thor,
-  .square__daniel {
+.square__thor,
+.square__daniel {
     -webkit-animation: none;
             animation: none;
   }
 }
-
 @media (prefers-color-scheme: dark) {
   .square__container {
     background-color: #223;
   }
+
   .square__thor {
     background-color: #9b486c;
   }
 }
-
 @media (orientation: portrait) {
   .square__container {
     background-color: #e29060;
   }
-}
-/*# sourceMappingURL=index.css.map */
+}/*# sourceMappingURL=index.css.map */
