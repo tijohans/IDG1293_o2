@@ -20,6 +20,13 @@
   border-bottom: 2px solid white;
 }
 
+header {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 body {
   margin: 0;
   padding: 0;
