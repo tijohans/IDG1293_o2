@@ -17,6 +17,14 @@
 .slide {
   height: 100vh;
   width: 100vw;
+  border-bottom: 2px solid white;
+}
+
+header {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 body {
@@ -35,6 +43,6 @@ p {
 }
 
 .slide__container {
-  background: #92d7e7;
-  background: linear-gradient(180deg, #92d7e7 0%, #2b3590 100%);
+  background: rgb(146, 215, 231);
+  background: linear-gradient(180deg, rgb(146, 215, 231) 0%, rgb(43, 53, 144) 100%);
 }/*# sourceMappingURL=index.css.map */
