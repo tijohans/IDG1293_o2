@@ -1,7 +1,8 @@
 @use "./abstracts/colors";
 @use "./abstracts/fonts";
 @use "./seperations/animations";
-@use "./layout/slide";
+@use "./seperations/layout";
+@use "./layout/slides";
 @use './layout/header';
 @use './abstracts/svg-fills';
 
@@ -20,7 +21,7 @@ p {
     font-family: fonts.$font-paragraph;
 }
 
-.slide__container {
+.underwater{
     background: rgb(146, 215, 231);
     background: linear-gradient(180deg, colors.$bg-primary 0%, colors.$bg-secondary 100%);
 }
@@ -28,4 +29,8 @@ p {
 // ! Added to make sure the svg's arent taking up the whole screen when adding them
 svg {
     max-width: 200px;
+    border: 1px dashed red;
+
 }
+
+
