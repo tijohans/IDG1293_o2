@@ -3,3 +3,22 @@
     width: 100vw;
     border: 2px solid white;
 }
+
+.svg_seagull, 
+.svg_bag, 
+#svg_boat,
+.svg_fish {
+    max-width: 200px;
+}
+
+
+.slide--one {
+    display: flex;
+    flex-direction: column;
+
+    #svg__wave {
+        margin-top: auto;
+        aspect-ratio: 960 / 300;
+        width: 100vw;
+    }
+}
