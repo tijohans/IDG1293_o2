@@ -2,9 +2,9 @@
 @use "./abstracts/fonts";
 @use "./seperations/animations";
 @use "./seperations/layout";
-@use "./layout/slides";
 @use './layout/header';
 @use './abstracts/svg-fills';
+@use "./layout/slides";
 
 body {
     margin: 0;
@@ -25,12 +25,4 @@ p {
     background: rgb(146, 215, 231);
     background: linear-gradient(180deg, colors.$bg-primary 0%, colors.$bg-secondary 100%);
 }
-
-// ! Added to make sure the svg's arent taking up the whole screen when adding them
-svg {
-    max-width: 200px;
-    border: 1px dashed red;
-
-}
-
 
