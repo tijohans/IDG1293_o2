@@ -3,6 +3,7 @@
 @use "./seperations/animations";
 @use "./layout/slide";
 @use './layout/header';
+@use './abstracts/svg-fills';
 
 body {
     margin: 0;
@@ -22,4 +23,9 @@ p {
 .slide__container {
     background: rgb(146, 215, 231);
     background: linear-gradient(180deg, colors.$bg-primary 0%, colors.$bg-secondary 100%);
+}
+
+// ! Added to make sure the svg's arent taking up the whole screen when adding them
+svg {
+    max-width: 200px;
 }

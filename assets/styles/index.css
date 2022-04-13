@@ -27,6 +27,180 @@ header {
   align-items: center;
 }
 
+.seagull {
+  border: 1px dashed red;
+  max-width: 10rem;
+}
+
+.seagull .cls-1 {
+  fill: #e5e6e8;
+}
+.seagull .cls-2 {
+  fill: #bbbdbf;
+}
+.seagull .cls-3 {
+  fill: #cbd4da;
+}
+.seagull .cls-4 {
+  fill: #55595c;
+}
+.seagull .cls-5 {
+  fill: #ecf6fb;
+}
+.seagull .cls-6 {
+  fill: #5a5b5c;
+}
+.seagull .cls-7 {
+  fill: #64788b;
+}
+.seagull .cls-8 {
+  fill: #e6f1f7;
+}
+.seagull .cls-9 {
+  fill: #647b91;
+}
+.seagull .cls-10 {
+  fill: #a6bfd4;
+}
+.seagull .cls-11 {
+  fill: #a8bfd3;
+}
+.seagull .cls-12 {
+  fill: #92a7b9;
+}
+.seagull .cls-13 {
+  fill: #dd923f;
+}
+.seagull .cls-14 {
+  fill: #e4d6c2;
+}
+.seagull .cls-15 {
+  fill: #535455;
+}
+.seagull .cls-16 {
+  fill: #ede2d5;
+}
+.seagull .cls-17 {
+  fill: #cba171;
+}
+.seagull .cls-18 {
+  fill: #bc9659;
+}
+.seagull .cls-19 {
+  fill: #788491;
+}
+.seagull .cls-20 {
+  fill: #a1703c;
+}
+.seagull .cls-21 {
+  fill: #dcb074;
+}
+
+.bag .cls-1 {
+  fill: #e5e3e4;
+}
+.bag .cls-2 {
+  fill: #d9d4d4;
+}
+.bag .cls-3 {
+  fill: #d4b8bc;
+}
+.bag .cls-4 {
+  fill: #c79699;
+}
+.bag .cls-5 {
+  fill: #e0dedf;
+}
+.bag .cls-6 {
+  fill: #e4001e;
+}
+.bag .cls-7 {
+  fill: #e50023;
+}
+.bag .cls-8 {
+  fill: #e4001a;
+}
+.bag .cls-9 {
+  fill: #e30015;
+}
+.bag .cls-10 {
+  fill: #dcdade;
+}
+
+.fish .cls-1 {
+  fill: #b0ddde;
+}
+.fish .cls-2 {
+  fill: #9bcecd;
+}
+.fish .cls-3 {
+  fill: #ecbdb4;
+}
+.fish .cls-4 {
+  fill: #0f6953;
+}
+.fish .cls-5 {
+  fill: #106954;
+}
+.fish .cls-6 {
+  fill: #cfccc8;
+}
+.fish .cls-7 {
+  fill: #83bcb7;
+}
+.fish .cls-8 {
+  fill: #69a9a0;
+}
+.fish .cls-9 {
+  fill: #2d7e6c;
+}
+.fish .cls-10 {
+  fill: #4a9386;
+}
+.fish .cls-11 {
+  fill: #186c58;
+}
+.fish .cls-12 {
+  fill: #cbcec9;
+}
+.fish .cls-13 {
+  fill: #0f6955;
+}
+.fish .cls-14 {
+  fill: #156b57;
+}
+.fish .cls-15 {
+  fill: #29715e;
+}
+
+#boat .cls-1 {
+  fill: #24374a;
+}
+#boat .cls-2 {
+  fill: #67bcda;
+}
+#boat .cls-3 {
+  fill: #fdc687;
+}
+#boat .cls-4 {
+  fill: #2a5250;
+}
+#boat .cls-5 {
+  fill: #ed3b4f;
+}
+#boat .cls-6 {
+  fill: #f0b097;
+}
+#boat .cls-7 {
+  fill: #9ad8f6;
+}
+#boat .cls-8 {
+  fill: #f4e5db;
+}
+#boat .cls-9 {
+  fill: #fc7581;
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -45,4 +219,8 @@ p {
 .slide__container {
   background: rgb(146, 215, 231);
   background: linear-gradient(180deg, rgb(146, 215, 231) 0%, rgb(43, 53, 144) 100%);
+}
+
+svg {
+  max-width: 200px;
 }/*# sourceMappingURL=index.css.map */
