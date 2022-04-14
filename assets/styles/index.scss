@@ -6,6 +6,7 @@
 @use './abstracts/svg-fills';
 @use "./layout/slides";
 
+// Resetting margins and paddings
 body {
     margin: 0;
     padding: 0;
@@ -21,6 +22,7 @@ p {
     font-family: fonts.$font-paragraph;
 }
 
+// Setting a linear gradient as a background, creating the illusion that you go deeper and deeper
 .underwater{
     background: rgb(146, 215, 231);
     background: linear-gradient(180deg, colors.$bg-primary 0%, colors.$bg-secondary 100%);

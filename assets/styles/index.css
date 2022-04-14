@@ -264,12 +264,12 @@ header {
   display: flex;
   flex-direction: column;
 }
-.slide--one .seagulls {
+.slide--one .seagull__container {
+  margin-block: 2vh;
   position: relative;
   left: 100vw;
-  -webkit-animation: seagullMove_anim 3s ease-out 0s normal forwards;
-          animation: seagullMove_anim 3s ease-out 0s normal forwards;
-  margin-block: 2vh;
+  -webkit-animation: seagullMove_anim 4s ease-out 0s normal forwards;
+          animation: seagullMove_anim 4s ease-out 0s normal forwards;
 }
 .slide--one .svg__seagull {
   -webkit-animation: seagullShake__anim 2s ease 0s infinite normal forwards;
