@@ -1,7 +1,7 @@
-// ** Husk å sette alle svg farger inn i en parent ID, slik at vi ikke blander fargene
+// ** Husk å sette alle svg farger inn i en parent ID eller class, slik at vi ikke blander fargene
 
 // Colors for the svg_seagull svg
-.svg_seagull {
+.svg__seagull {
     .cls-1 {
         fill: #e5e6e8;
     }
@@ -87,7 +87,7 @@
     }
 }
 
-.svg_bag {
+.svg__bag {
 
     .cls-1 {
         fill: #e5e3e4;
@@ -131,7 +131,7 @@
 
 }
 
-.svg_fish {
+.svg__fish {
     .cls-1 {
         fill: #b0ddde;
     }
@@ -193,7 +193,7 @@
     }
 }
 
-#svg_boat {
+#svg__boat {
 
     .cls-1 {
         fill: #24374a;

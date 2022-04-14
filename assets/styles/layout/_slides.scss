@@ -1,24 +1,71 @@
+// Setting the width and height of all the slides so everyone starts with the same canvas
 .slide {
     height: 100vh;
     width: 100vw;
-    border: 2px solid white;
+    border: 2px solid red;
 }
 
-.svg_seagull, 
-.svg_bag, 
-#svg_boat,
-.svg_fish {
+
+// ! Temporarily setting the max width of svg's so they don't clutter the workspace
+.svg__seagull,
+.svg__bag,
+#svg__boat,
+.svg__fish {
     max-width: 200px;
 }
 
-
+// Section for styling and animating the introduction
 .slide--one {
+    
+    // Setting the overflow to hidden because the seagulls are starting off screen, 
+    // preventing horizontal scroll before they move inside the viewport again.
+    overflow: hidden;
     display: flex;
     flex-direction: column;
 
-    #svg__wave {
-        margin-top: auto;
-        aspect-ratio: 960 / 300;
-        width: 100vw;
+    // The container for all the seagulls, used to make the seagulls move across the screen
+    .seagull__container {
+        margin-block: 2vh;
+
+        // Setting the position to relative and moving it off the screen, 
+        // allowing for the animation to move them on screen again
+        position: relative;
+        left: 100vw;
+        
+        // Animation that moves the seagulls inside the viewport again
+        animation: seagullMove_anim 4s ease-out 0s normal forwards;
     }
+
+    .svg__seagull {
+        // The animation for the seagulls "floating" around
+        animation: seagullShake__anim 2s ease 0s infinite normal forwards;
+    }
+
+    // nth-child 2 and 3 are used to position the seagulls more naturally,
+    // instead of having them next to each other on a line
+    .svg__seagull:nth-child(2) {
+        position: relative;
+        width: 100px;
+        top: -80px;
+        left: -20px;
+    }
+
+    .svg__seagull:nth-child(3) {
+        position: relative;
+        width: 150px;
+        left: -120px;
+    }
+
+}
+
+// Wave used as the water line
+#svg__wave {
+
+    // Setting the aspect ratio to the same as the original .svg
+    aspect-ratio: 960 / 300;
+    width: 100%;
+
+    // Using absolute positioning to position the element at the bottom of the viewport
+    position: absolute;
+    bottom: 0;
 }
