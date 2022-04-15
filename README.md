@@ -33,3 +33,9 @@ The technology we are using for this project is mainly SCSS and the Intersecton 
 ## Who maintains and contributes to the project
 
 The project is mainly maintaned by the three of us who made the project. There are in total three contributors to this project, tijohans, DanielLillevik, and StormHansael. The project is open for contributions.
+
+
+### Sources 
+
+This site was used to generate some simple keyframe animations:
+https://webcode.tools/generators/css/keyframe-animation
