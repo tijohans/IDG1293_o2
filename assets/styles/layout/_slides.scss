@@ -1,13 +1,15 @@
+@use "../abstracts/colors";
+@use "../seperations/animations";
+
 // Setting the width and height of all the slides so everyone starts with the same canvas
 .slide {
     height: 100vh;
     width: 100vw;
-    border: 2px solid red;
+/*     border: 2px solid red; */
 }
 
 
 // ! Temporarily setting the max width of svg's so they don't clutter the workspace
-.svg__seagull,
 .svg__bag,
 #svg__boat,
 .svg__fish {
@@ -41,6 +43,9 @@
         animation: seagullShake__anim 2s ease 0s infinite normal forwards;
     }
 
+    .svg__seagull:nth-child(1) {
+        width: 200px;
+    }
     // nth-child 2 and 3 are used to position the seagulls more naturally,
     // instead of having them next to each other on a line
     .svg__seagull:nth-child(2) {
@@ -60,6 +65,8 @@
 
 // Wave used as the water line
 #svg__wave {
+
+    fill: colors.$bg-primary;
 
     // Setting the aspect ratio to the same as the original .svg
     aspect-ratio: 960 / 300;
