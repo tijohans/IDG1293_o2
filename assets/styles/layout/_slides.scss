@@ -76,3 +76,24 @@
     position: absolute;
     bottom: 0;
 }
+
+// Section for styling and animating the slide five
+.slide--five { 
+    border: solid red 3px;
+
+    // Slide five red highlighted text
+    // ! Dosent work why? ...
+    .slide__five__red--highlight {
+        color: red;
+    }
+
+    .SVG__slide__five__pipe {
+        height: 10%;
+        width: 10%;
+    }
+
+    #SVG__slide__five__body {
+        max-width: 100px;
+        max-height: 100px;
+    }
+}
