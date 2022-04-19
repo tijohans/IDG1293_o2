@@ -4,8 +4,9 @@
 // Setting the width and height of all the slides so everyone starts with the same canvas
 .slide {
     height: 100vh;
-    width: 100vw;
-/*     border: 2px solid red; */
+
+    // * Setting the vw to 100vw makes horizontal scroll appear
+    // width: 100vw;
 }
 
 
@@ -46,6 +47,8 @@
     .svg__seagull:nth-child(1) {
         width: 200px;
     }
+
+
     // nth-child 2 and 3 are used to position the seagulls more naturally,
     // instead of having them next to each other on a line
     .svg__seagull:nth-child(2) {
