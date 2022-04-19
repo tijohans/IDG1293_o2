@@ -378,6 +378,10 @@ header {
   width: 10%;
 }
 
+.slide--seven .slide__seven__red--highlight {
+  color: red;
+}
+
 body {
   margin: 0;
   padding: 0;
