@@ -80,20 +80,61 @@
 // Section for styling and animating the slide five
 .slide--five { 
     border: solid red 3px;
+    // overflow: hidden;
+    
 
     // Slide five red highlighted text
-    // ! Dosent work why? ...
     .slide__five__red--highlight {
         color: red;
     }
 
     .SVG__slide__five__pipe {
-        height: 10%;
-        width: 10%;
+        position: relative;
+        height: 60%;
+        width: 60%;
+        left: -17%;
+        top: 10%;
+        // ! Add animation here
+        
     }
 
-    #SVG__slide__five__body {
-        max-width: 100px;
-        max-height: 100px;
+    .SVG__slide__five__body {
+        position: relative;
+        height: 30%;
+        width: 30%;
+        left: -650px;
+        top: 7%;
+
+        // ! Add animation here
     }
+
+    .SVG__slide__five__barrel {
+        position: relative;
+        height: 10%;
+        width: 10%;
+        left: 18%;
+        top: -300px;
+        z-index: 1;
+
+        // ! Add animation here
+    }
+
+    .SVG__slide__five__radsign {
+        position: relative;
+        height: 10%;
+        width: 10%;
+        left: 8%;
+        top: -200px;
+        z-index: 1;
+    }
+
+    .SVG__slide__five__fish__alive {
+        position: relative;
+        height: 10%;
+        width: 10%;
+        left: 8%;
+        top: -200px;
+        z-index: 1;
+    }
+
 }
