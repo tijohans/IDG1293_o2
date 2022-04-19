@@ -79,8 +79,7 @@
 
 // Section for styling and animating the slide five
 .slide--five { 
-    border: solid red 3px;
-    // overflow: hidden;
+    
     
 
     // Slide five red highlighted text
@@ -136,5 +135,13 @@
         top: -200px;
         z-index: 1;
     }
+    
+}
 
+.slide--six {
+
+    .SVG__slide__six__thermometer {
+        height: 10%;
+        width: 10%;
+    }
 }
