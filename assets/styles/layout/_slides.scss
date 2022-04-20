@@ -80,10 +80,14 @@
     bottom: 0;
 }
 
-// Section for styling and animating the slide five
+// Section for styling and animating slide five
 .slide--five { 
+
+    // Hides overflow to prevent the screen from increasing in width due to animations
+    overflow: hidden;
     
-    
+    // ! Temporay border 
+    border: 3px red solid;
 
     // Slide five red highlighted text
     .slide__five__red--highlight {
@@ -96,59 +100,107 @@
         width: 60%;
         left: -17%;
         top: 10%;
-        // ! Add animation here
+        z-index: 1;
+        // Animation for the pipe "spiting out" trash
+        animation: 1.5s 0s infinite;
+        animation-name: anim__pipe__spitingout;
         
     }
 
-    .SVG__slide__five__body {
-        position: relative;
-        height: 30%;
-        width: 30%;
-        left: -650px;
-        top: 7%;
 
-        // ! Add animation here
-    }
-
-    .SVG__slide__five__barrel {
+    .slide__five__trash__container {
+        // ! Temporay border
+        border: 3px green solid;
         position: relative;
-        height: 10%;
-        width: 10%;
-        left: 18%;
-        top: -300px;
+        top: -50.5%;
+        left: 19%;
+        height: 57%;
+        width: 80%;
         z-index: 1;
 
-        // ! Add animation here
+        .SVG__slide__five__body__container {
+            border: 3px purple solid;
+            display: flex;
+            flex-direction: column;
+            .SVG__slide__five__body {
+                
+                height: 5%;
+                width: 5%;
+               
+        
+                // Animation for leaving the pipe
+                animation: 3s timing-function 0s infinite;
+                animation-name: anim__pipe__trash__move;
+                
+            }
+        }
+        
+    
+        .SVG__slide__five__barrel {
+            position: relative;
+            height: 10%;
+            width: 10%;
+            left: 0px;
+            top: 7%;
+    
+            // Animation for leaving the pipe
+            animation: 3s timing-function 2s infinite;
+            animation-name: anim__pipe__trash__move;
+        }
+    
+        .SVG__slide__five__radsign {
+            position: relative;
+            height: 10%;
+            width: 10%;
+            left: 0px;
+            top: 7%;
+    
+            // Animation for leaving the pipe
+            animation: 3s timing-function 0.5s infinite;
+            animation-name: anim__pipe__trash__move;
+        }
+    
+        .SVG__slide__five__fish__alive {
+            position: relative;
+            height: 10%;
+            width: 10%;
+            left: 0px;
+            top: 7%;
+            
+            // Animation for leaving the pipe
+            animation: 3s timing-function 1.5s infinite;
+            animation-name: anim__pipe__trash__move;
+        }
     }
 
-    .SVG__slide__five__radsign {
-        position: relative;
-        height: 10%;
-        width: 10%;
-        left: 8%;
-        top: -200px;
-        z-index: 1;
-    }
-
-    .SVG__slide__five__fish__alive {
-        position: relative;
-        height: 10%;
-        width: 10%;
-        left: 8%;
-        top: -200px;
-        z-index: 1;
-    }
+    
     
 }
 
+// Section for styling and animating slide six
 .slide--six {
+    // ! Draft fucking not good
+    // border: 2px red solid;
 
-    .SVG__slide__six__thermometer {
-        height: 10%;
-        width: 10%;
-    }
+    .SVG__slide__six__container{
+        height: 73.6%;
+        // border: 2px green solid;
+    
+
+        .SVG__slide__six__thermometer {
+            position: relative;
+            height: 10%;
+            width: 10%;
+            top: 80%;
+            
+            border: 2px green solid;
+        }
+
+    }   
+
 }
 
+// Section for styling and animating slide seven
 .slide--seven {
 
     .slide__seven__red--highlight {
