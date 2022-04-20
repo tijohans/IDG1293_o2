@@ -86,8 +86,7 @@
     // Hides overflow to prevent the screen from increasing in width due to animations
     overflow: hidden;
     
-    // ! Temporay border 
-    border: 3px red solid;
+    
 
     // Slide five red highlighted text
     .slide__five__red--highlight {
@@ -109,71 +108,205 @@
 
 
     .slide__five__trash__container {
-        // ! Temporay border
-        border: 3px green solid;
+        
         position: relative;
         top: -50.5%;
         left: 19%;
         height: 57%;
         width: 80%;
-        z-index: 1;
+        z-index: 0;
 
+        // Slide five body positioning and animation 
         .SVG__slide__five__body__container {
-            border: 3px purple solid;
+           
             display: flex;
             flex-direction: column;
+            
             .SVG__slide__five__body {
-                
-                height: 5%;
-                width: 5%;
-               
-        
+                height: 4%;
+                width: 4%;
+            }
+            .SVG__slide__five__body1 {
                 // Animation for leaving the pipe
                 animation: 3s timing-function 0s infinite;
-                animation-name: anim__pipe__trash__move;
-                
+                animation-name: anim__pipe__body__move;
             }
+            .SVG__slide__five__body2{
+                // Animation for leaving the pipe
+                animation: 3s timing-function 0.5s infinite;
+                animation-name: anim__pipe__body__move;
+            }
+            .SVG__slide__five__body3 {
+                // Animation for leaving the pipe
+                animation: 3s timing-function 1s infinite;
+                animation-name: anim__pipe__body__move;
+            }
+
         }
         
-    
-        .SVG__slide__five__barrel {
+        .SVG__slide__five__barrel__container {
             position: relative;
-            height: 10%;
-            width: 10%;
-            left: 0px;
-            top: 7%;
-    
-            // Animation for leaving the pipe
-            animation: 3s timing-function 2s infinite;
-            animation-name: anim__pipe__trash__move;
-        }
-    
-        .SVG__slide__five__radsign {
-            position: relative;
-            height: 10%;
-            width: 10%;
-            left: 0px;
-            top: 7%;
-    
-            // Animation for leaving the pipe
-            animation: 3s timing-function 0.5s infinite;
-            animation-name: anim__pipe__trash__move;
-        }
-    
-        .SVG__slide__five__fish__alive {
-            position: relative;
-            height: 10%;
-            width: 10%;
-            left: 0px;
-            top: 7%;
+            display: flex;
+            justify-content: space-around;
+            flex-direction: column;
             
-            // Animation for leaving the pipe
-            animation: 3s timing-function 1.5s infinite;
-            animation-name: anim__pipe__trash__move;
+            top: -95%;
+            height: 100%;
+            
+            // General slide five barrel positioning 
+            .SVG__slide__five__barrel {
+                height: 10%;
+                width: 4%;
+                left: 0px;
+                top: 7%;
+            }
+
+            // Diffrent barrel animation delays
+            .SVG__slide__five__barrel1 {
+                // Animation for leaving the pipe
+                animation: 3s timing-function 3s infinite;
+                animation-name: anim__pipe__barrel__move;
+            }
+
+            .SVG__slide__five__barrel2 {
+                // Animation for leaving the pipe
+                animation: 3s timing-function 1.8s infinite;
+                animation-name: anim__pipe__barrel__move;
+            }
+            .SVG__slide__five__barrel3 {
+                // Animation for leaving the pipe
+                animation: 3s timing-function 2s infinite;
+                animation-name: anim__pipe__barrel__move;
+            }
+            .SVG__slide__five__barrel4 {
+                // Animation for leaving the pipe
+                animation: 3s timing-function 0s infinite;
+                animation-name: anim__pipe__barrel__move;
+            }
+            .SVG__slide__five__barrel5 {
+                // Animation for leaving the pipe
+                animation: 3s timing-function 1s infinite;
+                animation-name: anim__pipe__barrel__move;
+            }
+            .SVG__slide__five__barrel6 {
+                // Animation for leaving the pipe
+                animation: 3s timing-function 2.8s infinite;
+                animation-name: anim__pipe__barrel__move;
+            }
+
+        }
+
+        .SVG__slide__five__radsign__container {
+            top: -194%; 
+            max-height: 100%;
+            position: relative;
+            display: flex;
+            justify-content: space-around;
+            flex-direction: column;
+            
+            
+            .SVG__slide__five__radsign {
+                height: 3%;
+                width: 3%;
+            }
+
+            .SVG__slide__five__radsign:nth-child(1){
+                // Animation for leaving the pipe
+                animation: 3s 0.5s infinite;
+                animation-name: anim__pipe__radsign__move;
+            }
+            .SVG__slide__five__radsign:nth-child(2){
+                // Animation for leaving the pipe
+                animation: 3s 2.3s infinite;
+                animation-name: anim__pipe__radsign__move;
+            }
+            .SVG__slide__five__radsign:nth-child(3){
+                // Animation for leaving the pipe
+                animation: 3s 1.2s infinite;
+                animation-name: anim__pipe__radsign__move;
+            }
+            .SVG__slide__five__radsign:nth-child(4){
+                // Animation for leaving the pipe
+                animation: 3s 0.2s infinite;
+                animation-name: anim__pipe__radsign__move;
+            }
+            .SVG__slide__five__radsign:nth-child(5){
+                // Animation for leaving the pipe
+                animation: 3s 0.9s infinite;
+                animation-name: anim__pipe__radsign__move;
+            }
+            .SVG__slide__five__radsign:nth-child(6){
+                // Animation for leaving the pipe
+                animation: 3s 2s infinite;
+                animation-name: anim__pipe__radsign__move;
+            }
+            .SVG__slide__five__radsign:nth-child(7){
+                // Animation for leaving the pipe
+                animation: 3s 2.2s infinite;
+                animation-name: anim__pipe__radsign__move;
+            }
+            .SVG__slide__five__radsign:nth-child(8){
+                // Animation for leaving the pipe
+                animation: 3s 1.5s infinite;
+                animation-name: anim__pipe__radsign__move;
+            }
+            .SVG__slide__five__radsign:nth-child(9){
+                // Animation for leaving the pipe
+                animation: 3s 1.11s infinite;
+                animation-name: anim__pipe__radsign__move;
+            }
+        }
+
+        .SVG__slide__five__fish__dead__container {
+            
+            top: -294%; 
+            max-height: 100%;
+            
+            position: relative;
+            display: flex;
+            justify-content: space-around;
+            flex-direction: column;
+
+        
+            .SVG__slide__five__fish__dead {
+                position: relative;
+                padding: 1%;
+                height: 7%;
+                width: 7%;
+            }
+
+            .SVG__slide__five__fish__dead:nth-child(1) {
+                // Animation for leaving the pipe
+                animation: 3s 1.5s infinite;
+                animation-name: anim__pipe__fish__dead__move;
+            }
+            .SVG__slide__five__fish__dead:nth-child(2) {
+                // Animation for leaving the pipe
+                animation: 3s 0.1s infinite;
+                animation-name: anim__pipe__fish__dead__move;
+            }
+            .SVG__slide__five__fish__dead:nth-child(3) {
+                // Animation for leaving the pipe
+                animation: 3s 2s infinite;
+                animation-name: anim__pipe__fish__dead__move;
+            }
+            .SVG__slide__five__fish__dead:nth-child(4) {
+                // Animation for leaving the pipe
+                animation: 3s 1s infinite;
+                animation-name: anim__pipe__fish__dead__move;
+            }
+            .SVG__slide__five__fish__dead:nth-child(5) {
+                // Animation for leaving the pipe
+                animation: 3s 0s infinite;
+                animation-name: anim__pipe__fish__dead__move;
+            }
+            .SVG__slide__five__fish__dead:nth-child(6) {
+                // Animation for leaving the pipe
+                animation: 3s 0.7s infinite;
+                animation-name: anim__pipe__fish__dead__move;
+            }
         }
     }
-
-    
     
 }
 
@@ -202,9 +335,36 @@
 
 // Section for styling and animating slide seven
 .slide--seven {
-
+    overflow: hidden;
+    // ! Temporay border 
+    border: 3px red solid;
     .slide__seven__red--highlight {
         color: red;
+    }
+    
+    .slide__seven__positioning__container {
+        border: 3px green solid;
+        width: 100vw;
+        height: 50vh;;
+    }
+
+    .slide__seven__SVG__container {
+        border: 3px purple solid;
+        width: 100vw;
+        height: 20vh;
+
+        display: flex;
+        flex-direction: row;
+
+        .SVG__slide__seven__fish__alive{
+            display: flex;
+            
+            height: 100%;
+            width: 100%;
+        }
+
+
+
     }
 
 }
