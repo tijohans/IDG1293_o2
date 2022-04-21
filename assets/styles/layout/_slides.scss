@@ -3,9 +3,12 @@
 
 // Setting the width and height of all the slides so everyone starts with the same canvas
 .slide {
+    // Setting the scroll-snap-align property to activate scroll snapping
+    scroll-snap-align: start;
+
     height: 100vh;
 
-    // * Setting the vw to 100vw makes horizontal scroll appear
+    // ! Setting the vw to 100vw makes horizontal scroll appear even though nothing is outside 100vw
     // width: 100vw;
 
     // ? Shared style for all heading and paragraphs, making the text not hug the wall
@@ -69,9 +72,17 @@
         left: -120px;
     }
 
+    // Making article appear in the middle of the screen, making the text more readable
+    article {
+        height: 50vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
 }
 
-// Wave used as the water line
+// * Wave used as the water line
 #svg__wave {
 
     fill: colors.$bg-primary;

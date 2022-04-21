@@ -390,6 +390,7 @@ footer {
 }
 
 .slide {
+  scroll-snap-align: start;
   height: 100vh;
 }
 .slide h1, .slide h2, .slide p {
@@ -431,6 +432,12 @@ footer {
   position: relative;
   width: 150px;
   left: -120px;
+}
+.slide--one article {
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 #svg__wave {
@@ -696,9 +703,24 @@ footer {
   width: 100%;
 }
 
+html,
 body {
   margin: 0;
   padding: 0;
+  /* 
+      Setting up for scroll snapping when scrolling vertically. 
+      Setting the scroll-snap-point-y to repeat 100vh so that it is possible to use the native scrollbar, 
+      and not some inset scrollbar created by a div. Since we are repeating 100vh, 
+      it can be compared to setting the snap point on the .slide divs. 
+      The scroll snap type is set to proximity since the mandatory one was too "strict".
+
+      For this to work we also need to set the scroll-snap-align property on the objects we want to snap to, 
+      which we have done in the _slides.scss.
+  */
+  -ms-scroll-snap-type: y proximity;
+      scroll-snap-type: y proximity;
+  -ms-scroll-snap-points-y: repeat(100vh);
+      scroll-snap-points-y: repeat(100vh);
 }
 
 h1,
@@ -706,6 +728,8 @@ h2,
 h3 {
   font-family: "IBM Plex Serif", serif;
   font-size: 48px;
+  margin: 0;
+  padding: 0;
 }
 
 p {
