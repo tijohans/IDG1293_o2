@@ -7,6 +7,11 @@
 
     // * Setting the vw to 100vw makes horizontal scroll appear
     // width: 100vw;
+
+    // ? Shared style for all heading and paragraphs, making the text not hug the wall
+    h1, h2, p {
+        margin-left: 2vw;
+    }
 }
 
 
