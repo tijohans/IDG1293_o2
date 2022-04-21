@@ -382,6 +382,14 @@ header {
   stroke-miterlimit: 10;
 }
 
+.svg__slide__seven__coral__orange {
+  fill: #F15A24;
+}
+
+.svg__slide__seven__coral__red {
+  fill: #A91523;
+}
+
 .slide {
   height: 100vh;
 }
@@ -684,6 +692,9 @@ header {
   display: flex;
   height: 100%;
   width: 100%;
+}
+.slide--seven .slide__seven__SVG__container .slide__seven__coral__container {
+  width: 50vw;
 }
 
 body {
