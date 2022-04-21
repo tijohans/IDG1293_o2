@@ -3,6 +3,8 @@
 
 // Setting the width and height of all the slides so everyone starts with the same canvas
 .slide {
+    scroll-snap-align: start;
+
     height: 100vh;
 
     // ! Setting the vw to 100vw makes horizontal scroll appear
