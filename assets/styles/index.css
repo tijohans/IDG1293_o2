@@ -163,6 +163,13 @@ header {
   align-items: center;
 }
 
+footer {
+  background-color: rgb(146, 215, 231);
+  padding-block: 2vh;
+  display: grid;
+  place-items: center;
+}
+
 .svg__seagull .cls-1 {
   fill: #e5e6e8;
 }

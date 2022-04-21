@@ -1,0 +1,8 @@
+@use "../abstracts/colors";
+
+footer {
+    background-color: colors.$bg-primary;
+    padding-block: 2vh;
+    display: grid;
+    place-items: center;
+}
