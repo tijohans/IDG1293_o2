@@ -3,6 +3,7 @@
 @use "./seperations/animations";
 @use "./seperations/layout";
 @use './layout/header';
+@use './layout/footer';
 @use './abstracts/svg-fills';
 @use "./layout/slides";
 
@@ -16,10 +17,12 @@ h1,
 h2, 
 h3 {
     font-family: fonts.$font-header;
+    font-size: 48px;
 }
 
 p {
     font-family: fonts.$font-paragraph;
+    font-size: 18px;
 }
 
 // Setting a linear gradient as a background, creating the illusion that you go deeper and deeper
