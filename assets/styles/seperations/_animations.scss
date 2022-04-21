@@ -33,3 +33,67 @@
         transform: translateX(-95vw);
     }
 }
+
+// Slide five body leaving pipe animation
+@keyframes anim__pipe__body__move {
+	0% {
+		transform: translate(0);
+	}
+
+
+	100% {
+		transform: translate(1400px, 0px) rotate(420deg);
+		
+	}
+}
+
+
+@keyframes anim__pipe__barrel__move {
+	0% {
+		transform: translate(0);
+	}
+
+	100% {
+		transform: translate(1400px, 0px) rotate(-420deg);
+		
+	}
+}
+
+@keyframes anim__pipe__radsign__move {
+	0% {
+		transform: translate(0);
+	}
+
+	100% {
+		transform: translate(1400px, 0px) rotate(-100deg);
+		
+	}
+}
+
+@keyframes anim__pipe__fish__dead__move {
+	0% {
+		transform: translate(0) rotate(10deg);
+	}
+
+	100% {
+		transform: translate(120vw, 0px) rotate(110deg);
+		
+	}
+}
+
+
+@keyframes anim__pipe__spitingout {
+	0% {
+		width: 60%; 
+	}
+
+	50% {
+		width: 63%;
+	}
+
+	100% {
+		width: 60%;
+	}
+}
+
+
