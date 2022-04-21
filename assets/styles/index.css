@@ -402,11 +402,6 @@ footer {
   max-width: 200px;
 }
 
-.slide--one,
-.slide--two {
-  background-color: lightgrey;
-}
-
 .slide--one {
   overflow: hidden;
   display: flex;
@@ -436,6 +431,12 @@ footer {
   position: relative;
   width: 150px;
   left: -120px;
+}
+.slide--one article {
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 #svg__wave {
