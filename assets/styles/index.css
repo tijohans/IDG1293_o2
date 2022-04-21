@@ -385,6 +385,9 @@ header {
 .slide {
   height: 100vh;
 }
+.slide h1, .slide h2, .slide p {
+  margin-left: 2vw;
+}
 
 .svg__bag,
 #svg__boat,
@@ -695,10 +698,12 @@ h1,
 h2,
 h3 {
   font-family: "IBM Plex Serif", serif;
+  font-size: 48px;
 }
 
 p {
   font-family: "IBM Plex Sand", sans-serif;
+  font-size: 18px;
 }
 
 .underwater {
