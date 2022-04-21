@@ -18,6 +18,10 @@ h2,
 h3 {
     font-family: fonts.$font-header;
     font-size: 48px;
+
+    // Before the margins and paddings were reset the headings would make whitespace appear between the slides
+    margin: 0;
+    padding: 0;
 }
 
 p {
