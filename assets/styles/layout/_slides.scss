@@ -88,67 +88,78 @@
 // Section for styling and animating slide five
 .slide--five { 
 
-    // Hides overflow to prevent the screen from increasing in width due to animations
+    // Slide five -- Hides overflow to prevent the screen from increasing in width due to animations
     overflow: hidden;
     
-    
-
-    // Slide five red highlighted text
+    // Highlights text to empathize a warning
     .slide__five__red--highlight {
         color: red;
     }
 
+    // Slide five -- Text container size for easier positioning of svgs
+    .slide__five__text__container {
+        height: 20vh;
+    }
+
+    // Slide five -- Svg container size and flex
+    .slide__five__svg__container {
+        position: relative;
+        height: 38vw;
+        width: 100vw;
+        left: -20vw;
+    }
+
+    // Slide five -- pipe positioning size and animation
     .SVG__slide__five__pipe {
         position: relative;
-        height: 60%;
-        width: 60%;
-        left: -17%;
-        top: 10%;
         z-index: 1;
+        height: 70%;
+        width: 70%;     
+        top: 25%;
+        
         // Animation for the pipe "spiting out" trash
         animation: 1.5s 0s infinite;
         animation-name: anim__pipe__spitingout;
-        
     }
 
-
+    // Slide five -- Positioning and size of trash svgs
     .slide__five__trash__container {
-        
         position: relative;
-        top: -50.5%;
-        left: 19%;
-        height: 57%;
-        width: 80%;
-        z-index: 0;
+        top: -15vw;
+        left: 38vw;
+        
+        height: 50%;
+        width: 50%;
 
-        // Slide five body positioning and animation 
+        // Slide five -- body positioning and animation container
         .SVG__slide__five__body__container {
-           
+        
             display: flex;
             flex-direction: column;
             
+            // Slide five -- body size
             .SVG__slide__five__body {
                 height: 4%;
                 width: 4%;
             }
+            // Animation delay to improve variability
             .SVG__slide__five__body1 {
-                // Animation for leaving the pipe
                 animation: 3s timing-function 0s infinite;
                 animation-name: anim__pipe__body__move;
             }
+            // Animation delay to improve variability
             .SVG__slide__five__body2{
-                // Animation for leaving the pipe
                 animation: 3s timing-function 0.5s infinite;
                 animation-name: anim__pipe__body__move;
             }
+            // Animation delay to improve variability
             .SVG__slide__five__body3 {
-                // Animation for leaving the pipe
                 animation: 3s timing-function 1s infinite;
                 animation-name: anim__pipe__body__move;
             }
 
         }
-        
+        // Slide five -- barrel positioning and animation container
         .SVG__slide__five__barrel__container {
             position: relative;
             display: flex;
@@ -201,6 +212,7 @@
 
         }
 
+        // Slide five -- rad sign positioning and animation container
         .SVG__slide__five__radsign__container {
             top: -194%; 
             max-height: 100%;
@@ -217,51 +229,52 @@
 
             .SVG__slide__five__radsign:nth-child(1){
                 // Animation for leaving the pipe
-                animation: 3s 0.5s infinite;
+                animation: 5s 0.5s infinite;
                 animation-name: anim__pipe__radsign__move;
             }
             .SVG__slide__five__radsign:nth-child(2){
                 // Animation for leaving the pipe
-                animation: 3s 2.3s infinite;
+                animation: 5s 2.3s infinite;
                 animation-name: anim__pipe__radsign__move;
             }
             .SVG__slide__five__radsign:nth-child(3){
                 // Animation for leaving the pipe
-                animation: 3s 1.2s infinite;
+                animation: 5s 1.2s infinite;
                 animation-name: anim__pipe__radsign__move;
             }
             .SVG__slide__five__radsign:nth-child(4){
                 // Animation for leaving the pipe
-                animation: 3s 0.2s infinite;
+                animation: 5s 0.2s infinite;
                 animation-name: anim__pipe__radsign__move;
             }
             .SVG__slide__five__radsign:nth-child(5){
                 // Animation for leaving the pipe
-                animation: 3s 0.9s infinite;
+                animation: 5s 0.9s infinite;
                 animation-name: anim__pipe__radsign__move;
             }
             .SVG__slide__five__radsign:nth-child(6){
                 // Animation for leaving the pipe
-                animation: 3s 2s infinite;
+                animation: 5s 2s infinite;
                 animation-name: anim__pipe__radsign__move;
             }
             .SVG__slide__five__radsign:nth-child(7){
                 // Animation for leaving the pipe
-                animation: 3s 2.2s infinite;
+                animation: 5s 2.2s infinite;
                 animation-name: anim__pipe__radsign__move;
             }
             .SVG__slide__five__radsign:nth-child(8){
                 // Animation for leaving the pipe
-                animation: 3s 1.5s infinite;
+                animation: 5s 1.5s infinite;
                 animation-name: anim__pipe__radsign__move;
             }
             .SVG__slide__five__radsign:nth-child(9){
                 // Animation for leaving the pipe
-                animation: 3s 1.11s infinite;
+                animation: 5s 1.11s infinite;
                 animation-name: anim__pipe__radsign__move;
             }
         }
 
+        // Slide five -- dead fish positioning and animation container
         .SVG__slide__five__fish__dead__container {
             
             top: -294%; 
@@ -276,8 +289,7 @@
             .SVG__slide__five__fish__dead {
                 position: relative;
                 padding: 1%;
-                height: 7%;
-                width: 7%;
+                width: 10%;
             }
 
             .SVG__slide__five__fish__dead:nth-child(1) {
@@ -313,26 +325,129 @@
         }
     }
     
+
+    
+    
 }
 
 // Section for styling and animating slide six
 .slide--six {
-    // ! Draft fucking not good
-    // border: 2px red solid;
+    overflow: hidden;
 
+    // Slide six -- makes textcontainer to easier position svgs
+    .slide__six__text__container {
+        height: 20vh;
+    }
+
+    // Slide six -- SVG size 
     .SVG__slide__six__container{
-        height: 73.6%;
-        // border: 2px green solid;
-    
-
-        .SVG__slide__six__thermometer {
+        height: 75vh;
+        
+        // Slide six -- SVG size, positioning and animation
+        .thermometer__animpart__container {
             position: relative;
-            height: 10%;
-            width: 10%;
-            top: 80%;
-            
-            border: 2px green solid;
+            height: 50vh;
+            width: 50vh;
+            transform: rotate(180deg);
         }
+
+
+        // Slide six -- Left thermometer positioning and container
+        .thermometer__animpart__container:nth-child(1) {
+            position: relative;
+            top: 47vh;
+            left: 27vh;
+            transform: rotate(120deg);
+            animation: 15s 0s linear;
+            animation-name: anim__thermometer__fall__left;
+        
+
+            // Slide six -- Thermometer positioning, size, visibility and animation
+            .SVG__slide__six__thermometer:nth-child(1) {
+                position: relative;
+                top: 25vh;
+                z-index: 1;
+            }
+
+            // Slide six -- Thermometer  Red inside positioning, size and animation
+            .slide__six__thermometer__red {
+                background: #ee1f08;
+                position: relative;
+                height: 100vh;
+                width: 4.2vh;
+
+                top: -169vh;
+                left: 23.3vh;
+
+                z-index: 4;
+                
+                animation: 15s 0s;
+                animation-name: anim__slide__six__thermometer__red;
+                
+            }
+
+            // Slide six -- Broken thermometer positioning, size, visibility and animation
+            .SVG__slide__six__thermometer:nth-child(2) {
+                position: relative;
+                top: -25.5vh;
+                visibility: hidden;
+                z-index: 1;
+            }
+        }
+
+        // Slide six -- Right thermometer positioning and container
+        .thermometer__animpart__container:nth-child(2) {
+            top: 0vh;
+            left: 207vh;
+		    transform: rotate(120deg);
+
+            animation: 15s 0s linear;
+            animation-name: anim__thermometer__fall__right;
+        
+
+            // Slide six -- Thermometer positioning, size, visibility and animation
+            .SVG__slide__six__thermometer:nth-child(1) {
+                position: relative;
+                top: 25vh;
+                z-index: 1;
+
+                visibility: hidden;
+
+                animation: 11.2s 0s;
+                animation-name: anim__thermometer__hidden;
+            }
+
+            // Slide six -- Thermometer  Red inside positioning, size and animation
+            .slide__six__thermometer__red {
+                background: #ee1f08;
+                position: relative;
+                height: 100vh;
+                width: 4.2vh;
+
+                top: -169vh;
+                left: 23.3vh;
+
+                z-index: 4;
+                
+                animation: 15s 0s;
+                animation-name: anim__slide__six__thermometer__red;
+                
+            }
+
+            // Slide six -- Broken thermometer positioning, size, visibility and animation
+            .SVG__slide__six__thermometer:nth-child(2) {
+                position: relative;
+                top: -81vh;
+                visibility: visible;
+                z-index: 1;
+
+                animation: 12.2s 0s;
+                animation-name: anim__thermometer__reveal;
+            }
+
+        }
+
+        
 
     }   
 
@@ -340,40 +455,152 @@
 
 // Section for styling and animating slide seven
 .slide--seven {
+
+    // Hides overfolw to prevent animations to go to other slides
     overflow: hidden;
-    // ! Temporay border 
-    border: 3px red solid;
+
+    // Highlights text to empathize a warning
     .slide__seven__red--highlight {
         color: red;
     }
+
+    // Setts the height for slide seven text container to position svgs at bottom
+    .slide__seven__text {
+        height: 50vh;
+    }
     
+    // Helps position svg container at bottom of slide
     .slide__seven__positioning__container {
-        border: 3px green solid;
         width: 100vw;
         height: 50vh;;
     }
 
-    .slide__seven__SVG__container {
+    // Slide seven svg container width and flex box
+    .slide__seven__SVG__container__top, .slide__seven__SVG__container__bot {
         border: 3px purple solid;
         width: 100vw;
         height: 20vh;
 
         display: flex;
         flex-direction: row;
+    }
 
-        .SVG__slide__seven__fish__alive{
-            display: flex;
-            
-            height: 100%;
-            width: 100%;
+
+    // Slide seven -- mixes up bot svg positioning for more variability
+    .slide__seven__SVG__container__bot {
+        flex-direction: row-reverse;
+    }
+
+    // Slide seven -- Top svgs animation delays for variability
+    .slide__seven__SVG__container__top {
+
+        .SVG__slide__seven__fish__dead:nth-child(1) {
+            animation: 10s 2s infinite;
+            animation-name: anim__deadzones__flowup__dead__fish;
         }
 
-        .slide__seven__coral__container {
-            width: 50vw;
+        .svg__slide__seven__no02:nth-child(2){
+            animation: 10s 0s infinite;
+            animation-name: anim__deadzones__flowup__coral__orange;
+        }
+
+        .svg__slide__seven__green__lines:nth-child(3){
+            animation: 10s 0s infinite;
+            animation-name: anim__deadzones__flowdown__alive__fish;
+        }
+
+        .svg__slide__seven__no02:nth-child(4){
+            animation: 10s 0.9s infinite;
+            animation-name: anim__deadzones__flowup__coral__orange;
+        }
+
+        .SVG__slide__seven__fish__dead:nth-child(5) {
+            animation: 10s 0.2s infinite;
+            animation-name: anim__deadzones__flowup__dead__fish;
+        }
+
+         .svg__slide__seven__no02:nth-child(6){
+            animation: 10s 8s infinite;
+            animation-name: anim__deadzones__flowup__coral__orange;
         }
 
 
+        .svg__slide__seven__skull:nth-child(7) {
+            animation: 10s 4s infinite;
+            animation-name: anim__deadzones__flowup__coral__red;
+        }
+
+        .svg__slide__seven__skull:nth-child(8) {
+            animation: 10s 1.2s infinite;
+            animation-name: anim__deadzones__flowup__coral__red;
+        }
+
+        .svg__slide__seven__no02:nth-child(9){
+            animation: 10s 0s infinite;
+            animation-name: anim__deadzones__flowup__coral__orange;
+        }
+
+        .SVG__slide__seven__fish__dead:nth-child(10) {
+            animation: 10s 1s infinite;
+            animation-name: anim__deadzones__flowup__dead__fish;
+        }
 
     }
+
+    // Slide seven -- Bot svgs animation delays for variability
+    .slide__seven__SVG__container__bot {
+
+        .SVG__slide__seven__fish__dead:nth-child(1) {
+            animation: 10s 0.6s infinite;
+            animation-name: anim__deadzones__flowup__dead__fish;
+        }
+
+        .svg__slide__seven__coral__orange:nth-child(2){
+            animation: 10s 2.2s infinite;
+            animation-name: anim__deadzones__flowup__coral__orange;
+        }
+
+        .svg__slide__seven__green__lines:nth-child(3){
+            animation: 10s 1.8s infinite;
+            animation-name: anim__deadzones__flowdown__alive__fish;
+        }
+
+        .svg__slide__seven__coral__orange:nth-child(4){
+            animation: 10s 0.45s infinite;
+            animation-name: anim__deadzones__flowup__coral__orange;
+        }
+
+        .SVG__slide__seven__fish__dead:nth-child(5) {
+            animation: 10s 2s infinite;
+            animation-name: anim__deadzones__flowup__dead__fish;
+        }
+
+        .svg__slide__seven__coral__orange:nth-child(6){
+            animation: 10s 3s infinite;
+            animation-name: anim__deadzones__flowup__coral__orange;
+        }
+
+        .svg__slide__seven__skull:nth-child(7) {
+            animation: 10s 1s infinite;
+            animation-name: anim__deadzones__flowup__coral__red;
+        }
+
+        .svg__slide__seven__skull:nth-child(8) {
+            animation: 10s 3.333s infinite;
+            animation-name: anim__deadzones__flowup__coral__red;
+        }
+
+        .svg__slide__seven__coral__orange:nth-child(9){
+            animation: 10s 3s infinite;
+            animation-name: anim__deadzones__flowup__coral__orange;
+        }
+
+        .SVG__slide__seven__fish__dead:nth-child(10) {
+            animation: 10s 4s infinite;
+            animation-name: anim__deadzones__flowup__dead__fish;
+        }
+
+    }
+
 
 }

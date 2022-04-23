@@ -74,16 +74,22 @@
   0% {
     transform: translate(0);
   }
+  50% {
+    transform: translate(40vw) rotate(120deg);
+  }
   100% {
-    transform: translate(1400px, 0px) rotate(420deg);
+    transform: translate(120vw) rotate(420deg);
   }
 }
 @keyframes anim__pipe__body__move {
   0% {
     transform: translate(0);
   }
+  50% {
+    transform: translate(40vw) rotate(120deg);
+  }
   100% {
-    transform: translate(1400px, 0px) rotate(420deg);
+    transform: translate(120vw) rotate(420deg);
   }
 }
 @-webkit-keyframes anim__pipe__barrel__move {
@@ -91,7 +97,7 @@
     transform: translate(0);
   }
   100% {
-    transform: translate(1400px, 0px) rotate(-420deg);
+    transform: translate(120vw) rotate(-420deg);
   }
 }
 @keyframes anim__pipe__barrel__move {
@@ -99,23 +105,29 @@
     transform: translate(0);
   }
   100% {
-    transform: translate(1400px, 0px) rotate(-420deg);
+    transform: translate(120vw) rotate(-420deg);
   }
 }
 @-webkit-keyframes anim__pipe__radsign__move {
   0% {
     transform: translate(0);
   }
+  75% {
+    transform: translate(55vw);
+  }
   100% {
-    transform: translate(1400px, 0px) rotate(-100deg);
+    transform: translate(120vw) rotate(-100deg);
   }
 }
 @keyframes anim__pipe__radsign__move {
   0% {
     transform: translate(0);
   }
+  75% {
+    transform: translate(55vw);
+  }
   100% {
-    transform: translate(1400px, 0px) rotate(-100deg);
+    transform: translate(120vw) rotate(-100deg);
   }
 }
 @-webkit-keyframes anim__pipe__fish__dead__move {
@@ -154,6 +166,314 @@
   }
   100% {
     width: 60%;
+  }
+}
+@-webkit-keyframes anim__thermometer__fall__left {
+  0% {
+    top: -200vh;
+    left: 20vh;
+    transform: rotate(180deg);
+  }
+  30% {
+    top: 55vh;
+  }
+  40% {
+    top: 55vh;
+    left: 20vh;
+    transform: rotate(180deg);
+  }
+  60% {
+    top: 47vh;
+    left: 27vh;
+    transform: rotate(120deg);
+  }
+  100% {
+    top: 47vh;
+    left: 27vh;
+    transform: rotate(120deg);
+  }
+}
+@keyframes anim__thermometer__fall__left {
+  0% {
+    top: -200vh;
+    left: 20vh;
+    transform: rotate(180deg);
+  }
+  30% {
+    top: 55vh;
+  }
+  40% {
+    top: 55vh;
+    left: 20vh;
+    transform: rotate(180deg);
+  }
+  60% {
+    top: 47vh;
+    left: 27vh;
+    transform: rotate(120deg);
+  }
+  100% {
+    top: 47vh;
+    left: 27vh;
+    transform: rotate(120deg);
+  }
+}
+@-webkit-keyframes anim__thermometer__fall__right {
+  0% {
+    top: -200vh;
+    left: 200vh;
+    transform: rotate(180deg);
+  }
+  30% {
+    top: 55vh;
+  }
+  40% {
+    top: 0vh;
+    left: 200vh;
+    transform: rotate(180deg);
+  }
+  60% {
+    top: 0vh;
+    left: 207vh;
+    transform: rotate(120deg);
+  }
+  100% {
+    top: 0vh;
+    left: 207vh;
+    transform: rotate(120deg);
+  }
+}
+@keyframes anim__thermometer__fall__right {
+  0% {
+    top: -200vh;
+    left: 200vh;
+    transform: rotate(180deg);
+  }
+  30% {
+    top: 55vh;
+  }
+  40% {
+    top: 0vh;
+    left: 200vh;
+    transform: rotate(180deg);
+  }
+  60% {
+    top: 0vh;
+    left: 207vh;
+    transform: rotate(120deg);
+  }
+  100% {
+    top: 0vh;
+    left: 207vh;
+    transform: rotate(120deg);
+  }
+}
+@-webkit-keyframes anim__slide__six__thermometer__red {
+  0% {
+    height: 5vh;
+  }
+  30% {
+    height: 5vh;
+  }
+  40% {
+    height: 60vh;
+  }
+  100% {
+    height: 100vh;
+  }
+}
+@keyframes anim__slide__six__thermometer__red {
+  0% {
+    height: 5vh;
+  }
+  30% {
+    height: 5vh;
+  }
+  40% {
+    height: 60vh;
+  }
+  100% {
+    height: 100vh;
+  }
+}
+@-webkit-keyframes anim__thermometer__hidden {
+  0% {
+    visibility: visible;
+  }
+  79% {
+    visibility: visible;
+  }
+  80% {
+    visibility: hidden;
+  }
+  100% {
+    visibility: hidden;
+  }
+}
+@keyframes anim__thermometer__hidden {
+  0% {
+    visibility: visible;
+  }
+  79% {
+    visibility: visible;
+  }
+  80% {
+    visibility: hidden;
+  }
+  100% {
+    visibility: hidden;
+  }
+}
+@-webkit-keyframes anim__thermometer__reveal {
+  0% {
+    visibility: hidden;
+  }
+  70% {
+    visibility: hidden;
+  }
+  80% {
+    visibility: visible;
+  }
+  100% {
+    visibility: visible;
+  }
+}
+@keyframes anim__thermometer__reveal {
+  0% {
+    visibility: hidden;
+  }
+  70% {
+    visibility: hidden;
+  }
+  80% {
+    visibility: visible;
+  }
+  100% {
+    visibility: visible;
+  }
+}
+@-webkit-keyframes anim__deadzones__flowup__dead__fish {
+  0% {
+    transform: translateY(0vh);
+  }
+  18% {
+    transform: translateY(-45vh);
+  }
+  32% {
+    transform: translateY(-40vh);
+  }
+  41% {
+    transform: translateY(-45vh);
+  }
+  57% {
+    transform: translateY(-50vh);
+  }
+  100% {
+    transform: translateY(-130vh);
+  }
+}
+@keyframes anim__deadzones__flowup__dead__fish {
+  0% {
+    transform: translateY(0vh);
+  }
+  18% {
+    transform: translateY(-45vh);
+  }
+  32% {
+    transform: translateY(-40vh);
+  }
+  41% {
+    transform: translateY(-45vh);
+  }
+  57% {
+    transform: translateY(-50vh);
+  }
+  100% {
+    transform: translateY(-130vh);
+  }
+}
+@-webkit-keyframes anim__deadzones__flowup__coral__orange {
+  0% {
+    transform: translateY(0vh);
+  }
+  22% {
+    transform: translateY(-60vh);
+  }
+  44% {
+    transform: translateY(-30vh);
+  }
+  67% {
+    transform: translateY(-69vh);
+  }
+  100% {
+    transform: translateY(-130vh);
+  }
+}
+@keyframes anim__deadzones__flowup__coral__orange {
+  0% {
+    transform: translateY(0vh);
+  }
+  22% {
+    transform: translateY(-60vh);
+  }
+  44% {
+    transform: translateY(-30vh);
+  }
+  67% {
+    transform: translateY(-69vh);
+  }
+  100% {
+    transform: translateY(-130vh);
+  }
+}
+@-webkit-keyframes anim__deadzones__flowdown__alive__fish {
+  0% {
+    transform: translateY(-130vh);
+  }
+  100% {
+    transform: translateY(20vh);
+  }
+}
+@keyframes anim__deadzones__flowdown__alive__fish {
+  0% {
+    transform: translateY(-130vh);
+  }
+  100% {
+    transform: translateY(20vh);
+  }
+}
+@-webkit-keyframes anim__deadzones__flowup__coral__red {
+  0% {
+    transform: translateY(0vh);
+  }
+  25% {
+    transform: translateY(-23vh);
+  }
+  50% {
+    transform: translateY(-10vh);
+  }
+  84% {
+    transform: translateY(-59vh);
+  }
+  100% {
+    transform: translateY(-130vh);
+  }
+}
+@keyframes anim__deadzones__flowup__coral__red {
+  0% {
+    transform: translateY(0vh);
+  }
+  25% {
+    transform: translateY(-23vh);
+  }
+  50% {
+    transform: translateY(-10vh);
+  }
+  84% {
+    transform: translateY(-59vh);
+  }
+  100% {
+    transform: translateY(-130vh);
   }
 }
 header {
@@ -360,41 +680,69 @@ footer {
 }
 
 .SVG__slide__five__fish__dead .st0 {
-  fill: #2BB673;
+  fill: none;
   stroke: #000000;
-  stroke-miterlimit: 10;
-}
-.SVG__slide__five__fish__dead .st1 {
-  fill: #FFFFFF;
-  stroke: #000000;
-  stroke-miterlimit: 10;
-}
-.SVG__slide__five__fish__dead .st2 {
-  fill: #231F20;
-}
-
-.SVG__slide__seven__fish__alive .st0 {
-  fill: #2BB673;
-  stroke: #000000;
-  stroke-miterlimit: 10;
-}
-.SVG__slide__seven__fish__alive .st1 {
-  fill: #FFFFFF;
-  stroke: #000000;
-  stroke-miterlimit: 10;
-}
-.SVG__slide__seven__fish__alive .st2 {
-  fill: #2E3192;
-  stroke: #000000;
+  stroke-width: 8;
   stroke-miterlimit: 10;
 }
 
-.svg__slide__seven__coral__orange {
-  fill: #F15A24;
+.SVG__slide__six__thermometer:nth-child(1) .st0 {
+  fill: #ee1f08;
+}
+.SVG__slide__six__thermometer:nth-child(1) .st1 {
+  fill: none;
+}
+.SVG__slide__six__thermometer:nth-child(1) .st2 {
+  fill: none;
+  stroke: #000000;
+  stroke-width: 16;
+  stroke-miterlimit: 10;
 }
 
-.svg__slide__seven__coral__red {
-  fill: #A91523;
+.SVG__slide__six__thermometer:nth-child(2) .st0 {
+  fill: #ee1f08;
+}
+.SVG__slide__six__thermometer:nth-child(2) .st1 {
+  fill: none;
+}
+.SVG__slide__six__thermometer:nth-child(2) .st2 {
+  fill: none;
+  stroke: #000000;
+  stroke-width: 16;
+  stroke-miterlimit: 10;
+}
+
+.SVG__slide__seven__fish__dead .st0 {
+  fill: none;
+  stroke: #000000;
+  stroke-width: 8;
+  stroke-miterlimit: 10;
+}
+
+.svg__slide__seven__green__lines .st0 {
+  fill: none;
+  stroke: #006838;
+  stroke-width: 8;
+  stroke-miterlimit: 10;
+}
+
+.svg__slide__seven__no02 .st0 {
+  fill: none;
+  stroke: #BE1E2D;
+  stroke-width: 8;
+  stroke-miterlimit: 10;
+}
+.svg__slide__seven__no02 .st1 {
+  fill: none;
+  stroke: #000000;
+  stroke-width: 4;
+  stroke-miterlimit: 10;
+}
+.svg__slide__seven__no02 .st2 {
+  font-family: "MyriadPro-Regular";
+}
+.svg__slide__seven__no02 .st3 {
+  font-size: 30px;
 }
 
 .slide {
@@ -455,13 +803,21 @@ footer {
 .slide--five .slide__five__red--highlight {
   color: red;
 }
+.slide--five .slide__five__text__container {
+  height: 20vh;
+}
+.slide--five .slide__five__svg__container {
+  position: relative;
+  height: 38vw;
+  width: 100vw;
+  left: -20vw;
+}
 .slide--five .SVG__slide__five__pipe {
   position: relative;
-  height: 60%;
-  width: 60%;
-  left: -17%;
-  top: 10%;
   z-index: 1;
+  height: 70%;
+  width: 70%;
+  top: 25%;
   -webkit-animation: 1.5s 0s infinite;
           animation: 1.5s 0s infinite;
   -webkit-animation-name: anim__pipe__spitingout;
@@ -469,11 +825,10 @@ footer {
 }
 .slide--five .slide__five__trash__container {
   position: relative;
-  top: -50.5%;
-  left: 19%;
-  height: 57%;
-  width: 80%;
-  z-index: 0;
+  top: -15vw;
+  left: 38vw;
+  height: 50%;
+  width: 50%;
 }
 .slide--five .slide__five__trash__container .SVG__slide__five__body__container {
   display: flex;
@@ -564,56 +919,56 @@ footer {
   width: 3%;
 }
 .slide--five .slide__five__trash__container .SVG__slide__five__radsign__container .SVG__slide__five__radsign:nth-child(1) {
-  -webkit-animation: 3s 0.5s infinite;
-          animation: 3s 0.5s infinite;
+  -webkit-animation: 5s 0.5s infinite;
+          animation: 5s 0.5s infinite;
   -webkit-animation-name: anim__pipe__radsign__move;
           animation-name: anim__pipe__radsign__move;
 }
 .slide--five .slide__five__trash__container .SVG__slide__five__radsign__container .SVG__slide__five__radsign:nth-child(2) {
-  -webkit-animation: 3s 2.3s infinite;
-          animation: 3s 2.3s infinite;
+  -webkit-animation: 5s 2.3s infinite;
+          animation: 5s 2.3s infinite;
   -webkit-animation-name: anim__pipe__radsign__move;
           animation-name: anim__pipe__radsign__move;
 }
 .slide--five .slide__five__trash__container .SVG__slide__five__radsign__container .SVG__slide__five__radsign:nth-child(3) {
-  -webkit-animation: 3s 1.2s infinite;
-          animation: 3s 1.2s infinite;
+  -webkit-animation: 5s 1.2s infinite;
+          animation: 5s 1.2s infinite;
   -webkit-animation-name: anim__pipe__radsign__move;
           animation-name: anim__pipe__radsign__move;
 }
 .slide--five .slide__five__trash__container .SVG__slide__five__radsign__container .SVG__slide__five__radsign:nth-child(4) {
-  -webkit-animation: 3s 0.2s infinite;
-          animation: 3s 0.2s infinite;
+  -webkit-animation: 5s 0.2s infinite;
+          animation: 5s 0.2s infinite;
   -webkit-animation-name: anim__pipe__radsign__move;
           animation-name: anim__pipe__radsign__move;
 }
 .slide--five .slide__five__trash__container .SVG__slide__five__radsign__container .SVG__slide__five__radsign:nth-child(5) {
-  -webkit-animation: 3s 0.9s infinite;
-          animation: 3s 0.9s infinite;
+  -webkit-animation: 5s 0.9s infinite;
+          animation: 5s 0.9s infinite;
   -webkit-animation-name: anim__pipe__radsign__move;
           animation-name: anim__pipe__radsign__move;
 }
 .slide--five .slide__five__trash__container .SVG__slide__five__radsign__container .SVG__slide__five__radsign:nth-child(6) {
-  -webkit-animation: 3s 2s infinite;
-          animation: 3s 2s infinite;
+  -webkit-animation: 5s 2s infinite;
+          animation: 5s 2s infinite;
   -webkit-animation-name: anim__pipe__radsign__move;
           animation-name: anim__pipe__radsign__move;
 }
 .slide--five .slide__five__trash__container .SVG__slide__five__radsign__container .SVG__slide__five__radsign:nth-child(7) {
-  -webkit-animation: 3s 2.2s infinite;
-          animation: 3s 2.2s infinite;
+  -webkit-animation: 5s 2.2s infinite;
+          animation: 5s 2.2s infinite;
   -webkit-animation-name: anim__pipe__radsign__move;
           animation-name: anim__pipe__radsign__move;
 }
 .slide--five .slide__five__trash__container .SVG__slide__five__radsign__container .SVG__slide__five__radsign:nth-child(8) {
-  -webkit-animation: 3s 1.5s infinite;
-          animation: 3s 1.5s infinite;
+  -webkit-animation: 5s 1.5s infinite;
+          animation: 5s 1.5s infinite;
   -webkit-animation-name: anim__pipe__radsign__move;
           animation-name: anim__pipe__radsign__move;
 }
 .slide--five .slide__five__trash__container .SVG__slide__five__radsign__container .SVG__slide__five__radsign:nth-child(9) {
-  -webkit-animation: 3s 1.11s infinite;
-          animation: 3s 1.11s infinite;
+  -webkit-animation: 5s 1.11s infinite;
+          animation: 5s 1.11s infinite;
   -webkit-animation-name: anim__pipe__radsign__move;
           animation-name: anim__pipe__radsign__move;
 }
@@ -628,8 +983,7 @@ footer {
 .slide--five .slide__five__trash__container .SVG__slide__five__fish__dead__container .SVG__slide__five__fish__dead {
   position: relative;
   padding: 1%;
-  height: 7%;
-  width: 7%;
+  width: 10%;
 }
 .slide--five .slide__five__trash__container .SVG__slide__five__fish__dead__container .SVG__slide__five__fish__dead:nth-child(1) {
   -webkit-animation: 3s 1.5s infinite;
@@ -668,43 +1022,240 @@ footer {
           animation-name: anim__pipe__fish__dead__move;
 }
 
-.slide--six .SVG__slide__six__container {
-  height: 73.6%;
+.slide--six {
+  overflow: hidden;
 }
-.slide--six .SVG__slide__six__container .SVG__slide__six__thermometer {
+.slide--six .slide__six__text__container {
+  height: 20vh;
+}
+.slide--six .SVG__slide__six__container {
+  height: 75vh;
+}
+.slide--six .SVG__slide__six__container .thermometer__animpart__container {
   position: relative;
-  height: 10%;
-  width: 10%;
-  top: 80%;
-  border: 2px green solid;
+  height: 50vh;
+  width: 50vh;
+  transform: rotate(180deg);
+}
+.slide--six .SVG__slide__six__container .thermometer__animpart__container:nth-child(1) {
+  position: relative;
+  top: 47vh;
+  left: 27vh;
+  transform: rotate(120deg);
+  -webkit-animation: 15s 0s linear;
+          animation: 15s 0s linear;
+  -webkit-animation-name: anim__thermometer__fall__left;
+          animation-name: anim__thermometer__fall__left;
+}
+.slide--six .SVG__slide__six__container .thermometer__animpart__container:nth-child(1) .SVG__slide__six__thermometer:nth-child(1) {
+  position: relative;
+  top: 25vh;
+  z-index: 1;
+}
+.slide--six .SVG__slide__six__container .thermometer__animpart__container:nth-child(1) .slide__six__thermometer__red {
+  background: #ee1f08;
+  position: relative;
+  height: 100vh;
+  width: 4.2vh;
+  top: -169vh;
+  left: 23.3vh;
+  z-index: 4;
+  -webkit-animation: 15s 0s;
+          animation: 15s 0s;
+  -webkit-animation-name: anim__slide__six__thermometer__red;
+          animation-name: anim__slide__six__thermometer__red;
+}
+.slide--six .SVG__slide__six__container .thermometer__animpart__container:nth-child(1) .SVG__slide__six__thermometer:nth-child(2) {
+  position: relative;
+  top: -25.5vh;
+  visibility: hidden;
+  z-index: 1;
+}
+.slide--six .SVG__slide__six__container .thermometer__animpart__container:nth-child(2) {
+  top: 0vh;
+  left: 207vh;
+  transform: rotate(120deg);
+  -webkit-animation: 15s 0s linear;
+          animation: 15s 0s linear;
+  -webkit-animation-name: anim__thermometer__fall__right;
+          animation-name: anim__thermometer__fall__right;
+}
+.slide--six .SVG__slide__six__container .thermometer__animpart__container:nth-child(2) .SVG__slide__six__thermometer:nth-child(1) {
+  position: relative;
+  top: 25vh;
+  z-index: 1;
+  visibility: hidden;
+  -webkit-animation: 11.2s 0s;
+          animation: 11.2s 0s;
+  -webkit-animation-name: anim__thermometer__hidden;
+          animation-name: anim__thermometer__hidden;
+}
+.slide--six .SVG__slide__six__container .thermometer__animpart__container:nth-child(2) .slide__six__thermometer__red {
+  background: #ee1f08;
+  position: relative;
+  height: 100vh;
+  width: 4.2vh;
+  top: -169vh;
+  left: 23.3vh;
+  z-index: 4;
+  -webkit-animation: 15s 0s;
+          animation: 15s 0s;
+  -webkit-animation-name: anim__slide__six__thermometer__red;
+          animation-name: anim__slide__six__thermometer__red;
+}
+.slide--six .SVG__slide__six__container .thermometer__animpart__container:nth-child(2) .SVG__slide__six__thermometer:nth-child(2) {
+  position: relative;
+  top: -81vh;
+  visibility: visible;
+  z-index: 1;
+  -webkit-animation: 12.2s 0s;
+          animation: 12.2s 0s;
+  -webkit-animation-name: anim__thermometer__reveal;
+          animation-name: anim__thermometer__reveal;
 }
 
 .slide--seven {
   overflow: hidden;
-  border: 3px red solid;
 }
 .slide--seven .slide__seven__red--highlight {
   color: red;
 }
+.slide--seven .slide__seven__text {
+  height: 50vh;
+}
 .slide--seven .slide__seven__positioning__container {
-  border: 3px green solid;
   width: 100vw;
   height: 50vh;
 }
-.slide--seven .slide__seven__SVG__container {
+.slide--seven .slide__seven__SVG__container__top, .slide--seven .slide__seven__SVG__container__bot {
   border: 3px purple solid;
   width: 100vw;
   height: 20vh;
   display: flex;
   flex-direction: row;
 }
-.slide--seven .slide__seven__SVG__container .SVG__slide__seven__fish__alive {
-  display: flex;
-  height: 100%;
-  width: 100%;
+.slide--seven .slide__seven__SVG__container__bot {
+  flex-direction: row-reverse;
 }
-.slide--seven .slide__seven__SVG__container .slide__seven__coral__container {
-  width: 50vw;
+.slide--seven .slide__seven__SVG__container__top .SVG__slide__seven__fish__dead:nth-child(1) {
+  -webkit-animation: 10s 2s infinite;
+          animation: 10s 2s infinite;
+  -webkit-animation-name: anim__deadzones__flowup__dead__fish;
+          animation-name: anim__deadzones__flowup__dead__fish;
+}
+.slide--seven .slide__seven__SVG__container__top .svg__slide__seven__no02:nth-child(2) {
+  -webkit-animation: 10s 0s infinite;
+          animation: 10s 0s infinite;
+  -webkit-animation-name: anim__deadzones__flowup__coral__orange;
+          animation-name: anim__deadzones__flowup__coral__orange;
+}
+.slide--seven .slide__seven__SVG__container__top .svg__slide__seven__green__lines:nth-child(3) {
+  -webkit-animation: 10s 0s infinite;
+          animation: 10s 0s infinite;
+  -webkit-animation-name: anim__deadzones__flowdown__alive__fish;
+          animation-name: anim__deadzones__flowdown__alive__fish;
+}
+.slide--seven .slide__seven__SVG__container__top .svg__slide__seven__no02:nth-child(4) {
+  -webkit-animation: 10s 0.9s infinite;
+          animation: 10s 0.9s infinite;
+  -webkit-animation-name: anim__deadzones__flowup__coral__orange;
+          animation-name: anim__deadzones__flowup__coral__orange;
+}
+.slide--seven .slide__seven__SVG__container__top .SVG__slide__seven__fish__dead:nth-child(5) {
+  -webkit-animation: 10s 0.2s infinite;
+          animation: 10s 0.2s infinite;
+  -webkit-animation-name: anim__deadzones__flowup__dead__fish;
+          animation-name: anim__deadzones__flowup__dead__fish;
+}
+.slide--seven .slide__seven__SVG__container__top .svg__slide__seven__no02:nth-child(6) {
+  -webkit-animation: 10s 8s infinite;
+          animation: 10s 8s infinite;
+  -webkit-animation-name: anim__deadzones__flowup__coral__orange;
+          animation-name: anim__deadzones__flowup__coral__orange;
+}
+.slide--seven .slide__seven__SVG__container__top .svg__slide__seven__skull:nth-child(7) {
+  -webkit-animation: 10s 4s infinite;
+          animation: 10s 4s infinite;
+  -webkit-animation-name: anim__deadzones__flowup__coral__red;
+          animation-name: anim__deadzones__flowup__coral__red;
+}
+.slide--seven .slide__seven__SVG__container__top .svg__slide__seven__skull:nth-child(8) {
+  -webkit-animation: 10s 1.2s infinite;
+          animation: 10s 1.2s infinite;
+  -webkit-animation-name: anim__deadzones__flowup__coral__red;
+          animation-name: anim__deadzones__flowup__coral__red;
+}
+.slide--seven .slide__seven__SVG__container__top .svg__slide__seven__no02:nth-child(9) {
+  -webkit-animation: 10s 0s infinite;
+          animation: 10s 0s infinite;
+  -webkit-animation-name: anim__deadzones__flowup__coral__orange;
+          animation-name: anim__deadzones__flowup__coral__orange;
+}
+.slide--seven .slide__seven__SVG__container__top .SVG__slide__seven__fish__dead:nth-child(10) {
+  -webkit-animation: 10s 1s infinite;
+          animation: 10s 1s infinite;
+  -webkit-animation-name: anim__deadzones__flowup__dead__fish;
+          animation-name: anim__deadzones__flowup__dead__fish;
+}
+.slide--seven .slide__seven__SVG__container__bot .SVG__slide__seven__fish__dead:nth-child(1) {
+  -webkit-animation: 10s 0.6s infinite;
+          animation: 10s 0.6s infinite;
+  -webkit-animation-name: anim__deadzones__flowup__dead__fish;
+          animation-name: anim__deadzones__flowup__dead__fish;
+}
+.slide--seven .slide__seven__SVG__container__bot .svg__slide__seven__coral__orange:nth-child(2) {
+  -webkit-animation: 10s 2.2s infinite;
+          animation: 10s 2.2s infinite;
+  -webkit-animation-name: anim__deadzones__flowup__coral__orange;
+          animation-name: anim__deadzones__flowup__coral__orange;
+}
+.slide--seven .slide__seven__SVG__container__bot .svg__slide__seven__green__lines:nth-child(3) {
+  -webkit-animation: 10s 1.8s infinite;
+          animation: 10s 1.8s infinite;
+  -webkit-animation-name: anim__deadzones__flowdown__alive__fish;
+          animation-name: anim__deadzones__flowdown__alive__fish;
+}
+.slide--seven .slide__seven__SVG__container__bot .svg__slide__seven__coral__orange:nth-child(4) {
+  -webkit-animation: 10s 0.45s infinite;
+          animation: 10s 0.45s infinite;
+  -webkit-animation-name: anim__deadzones__flowup__coral__orange;
+          animation-name: anim__deadzones__flowup__coral__orange;
+}
+.slide--seven .slide__seven__SVG__container__bot .SVG__slide__seven__fish__dead:nth-child(5) {
+  -webkit-animation: 10s 2s infinite;
+          animation: 10s 2s infinite;
+  -webkit-animation-name: anim__deadzones__flowup__dead__fish;
+          animation-name: anim__deadzones__flowup__dead__fish;
+}
+.slide--seven .slide__seven__SVG__container__bot .svg__slide__seven__coral__orange:nth-child(6) {
+  -webkit-animation: 10s 3s infinite;
+          animation: 10s 3s infinite;
+  -webkit-animation-name: anim__deadzones__flowup__coral__orange;
+          animation-name: anim__deadzones__flowup__coral__orange;
+}
+.slide--seven .slide__seven__SVG__container__bot .svg__slide__seven__skull:nth-child(7) {
+  -webkit-animation: 10s 1s infinite;
+          animation: 10s 1s infinite;
+  -webkit-animation-name: anim__deadzones__flowup__coral__red;
+          animation-name: anim__deadzones__flowup__coral__red;
+}
+.slide--seven .slide__seven__SVG__container__bot .svg__slide__seven__skull:nth-child(8) {
+  -webkit-animation: 10s 3.333s infinite;
+          animation: 10s 3.333s infinite;
+  -webkit-animation-name: anim__deadzones__flowup__coral__red;
+          animation-name: anim__deadzones__flowup__coral__red;
+}
+.slide--seven .slide__seven__SVG__container__bot .svg__slide__seven__coral__orange:nth-child(9) {
+  -webkit-animation: 10s 3s infinite;
+          animation: 10s 3s infinite;
+  -webkit-animation-name: anim__deadzones__flowup__coral__orange;
+          animation-name: anim__deadzones__flowup__coral__orange;
+}
+.slide--seven .slide__seven__SVG__container__bot .SVG__slide__seven__fish__dead:nth-child(10) {
+  -webkit-animation: 10s 4s infinite;
+          animation: 10s 4s infinite;
+  -webkit-animation-name: anim__deadzones__flowup__dead__fish;
+          animation-name: anim__deadzones__flowup__dead__fish;
 }
 
 body {
