@@ -98,12 +98,19 @@
 .slide--three {
     overflow: hidden;
 
+    // TODO: Needs to make the fish not be able to cover the text in the slide. 
     .svg__fish {
         width: 250px;
         position: relative;
         top: 100px;
         left: 100px;
     }
+
+    .hidden {
+        visibility: hidden;
+        opacity: 0;
+        transition: visibility 0s 2s, opacity 2s linear;
+      }
 }
 
 // Section for styling and animating slide five

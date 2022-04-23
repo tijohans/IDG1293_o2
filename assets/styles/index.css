@@ -456,6 +456,11 @@ footer {
   top: 100px;
   left: 100px;
 }
+.slide--three .hidden {
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0s 2s, opacity 2s linear;
+}
 
 .slide--five {
   overflow: hidden;

@@ -42,7 +42,9 @@ https://webcode.tools/generators/css/keyframe-animation
 
 https://stackoverflow.com/questions/53416348/css-scroll-snapping-vertical-not-working
 https://stackoverflow.com/questions/17295219/overflow-scroll-css-is-not-working-in-the-div
+https://stackoverflow.com/questions/15907079/css3-transition-fade-out-effect
 
 
 Try to use this to position fish on slide three randomly
 http://jsfiddle.net/tiffhockin/fesvq8u0/
+
