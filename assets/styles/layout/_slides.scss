@@ -20,8 +20,7 @@
 
 // ! Temporarily setting the max width of svg's so they don't clutter the workspace
 .svg__bag,
-#svg__boat,
-.svg__fish {
+#svg__boat {
     max-width: 200px;
 }
 
@@ -94,6 +93,17 @@
     // Using absolute positioning to position the element at the bottom of the viewport
     position: absolute;
     bottom: 0;
+}
+
+.slide--three {
+    overflow: hidden;
+
+    .svg__fish {
+        width: 250px;
+        position: relative;
+        top: 100px;
+        left: 100px;
+    }
 }
 
 // Section for styling and animating slide five

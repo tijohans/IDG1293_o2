@@ -398,8 +398,7 @@ footer {
 }
 
 .svg__bag,
-#svg__boat,
-.svg__fish {
+#svg__boat {
   max-width: 200px;
 }
 
@@ -446,6 +445,16 @@ footer {
   width: 100%;
   position: absolute;
   bottom: 0;
+}
+
+.slide--three {
+  overflow: hidden;
+}
+.slide--three .svg__fish {
+  width: 250px;
+  position: relative;
+  top: 100px;
+  left: 100px;
 }
 
 .slide--five {
