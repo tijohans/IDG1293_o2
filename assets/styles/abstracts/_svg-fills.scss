@@ -246,14 +246,37 @@
     .st0{fill:#F8EC24;}
 }
 
+// ! Fix class 
 .SVG__slide__five__fish__dead {
-    .st0{fill:#2BB673;stroke:#000000;stroke-miterlimit:10;}
-    .st1{fill:#FFFFFF;stroke:#000000;stroke-miterlimit:10;}
-    .st2{fill:#231F20;}
+    .st0{fill:none;stroke:#000000;stroke-width:8;stroke-miterlimit:10;}
 }
 
-.SVG__slide__seven__fish__alive {
-    .st0{fill:#2BB673;stroke:#000000;stroke-miterlimit:10;}
-    .st1{fill:#FFFFFF;stroke:#000000;stroke-miterlimit:10;}
-    .st2{fill:#2E3192;stroke:#000000;stroke-miterlimit:10;}
+
+.SVG__slide__six__thermometer:nth-child(1) {
+    .st0{fill:#ee1f08;}
+    .st1{fill:none;}
+    .st2{fill:none;stroke:#000000;stroke-width:16;stroke-miterlimit:10;}
+}
+
+.SVG__slide__six__thermometer:nth-child(2) {
+    .st0{fill:#ee1f08;}
+    .st1{fill:none;}
+    .st2{fill:none;stroke:#000000;stroke-width:16;stroke-miterlimit:10;}
+}
+
+
+.SVG__slide__seven__fish__dead {
+    .st0{fill:none;stroke:#000000;stroke-width:8;stroke-miterlimit:10;}
+}
+
+.svg__slide__seven__green__lines {
+    .st0{fill:none;stroke:#006838;stroke-width:8;stroke-miterlimit:10;}
+}
+
+
+.svg__slide__seven__no02 {
+    .st0{fill:none;stroke:#BE1E2D;stroke-width:8;stroke-miterlimit:10;}
+    .st1{fill:none;stroke:#000000;stroke-width:4;stroke-miterlimit:10;}
+    .st2{font-family:'MyriadPro-Regular';}
+    .st3{font-size:30px;}
 }
