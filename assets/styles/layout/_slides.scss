@@ -80,9 +80,8 @@
 
 }
 
-// * Wave used as the water line
+// Wave used as the water line
 #svg__wave {
-
     fill: colors.$bg-primary;
 
     // Setting the aspect ratio to the same as the original .svg
@@ -117,8 +116,9 @@
     justify-content: center;
     align-items: center;
 
-    article {
+    .slide__four--article {
         margin-inline: 5vw;
+        max-width: 70ch;
     }
     
     .svg__bag {

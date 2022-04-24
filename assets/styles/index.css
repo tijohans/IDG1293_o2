@@ -822,8 +822,9 @@ footer {
   justify-content: center;
   align-items: center;
 }
-.slide--four article {
+.slide--four .slide__four--article {
   margin-inline: 5vw;
+  max-width: 70ch;
 }
 .slide--four .svg__bag {
   width: 150px;
