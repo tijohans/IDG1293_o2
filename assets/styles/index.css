@@ -1301,6 +1301,10 @@ footer {
           animation-name: anim__deadzones__flowup__dead__fish;
 }
 
+.slide--eight {
+  overflow: hidden;
+}
+
 .slide--eight .svg__fish {
   width: 250px;
   position: relative;
@@ -1322,12 +1326,20 @@ footer {
   left: 50px;
 }
 
+.slide--nine {
+  overflow: hidden;
+}
+
 .slide--nine .algae_svg{
   width: 250px;
   position: relative;
   top: 80px;
   left: 50px;
   color: green;
+}
+
+.slide--ten {
+  overflow: hidden;
 }
 
 .slide--ten .svg__fish {
