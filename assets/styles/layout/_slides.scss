@@ -656,3 +656,22 @@
 
 
 }
+
+.slide--eight{
+    .svg_skull1{
+        animation: 10s 3s infinite;
+        animation-name: anim__deadzones__flowup__coral__orange;
+    }
+    .svg_skull2{
+        animation: 10s 3s infinite;
+        animation-name: anim__deadzones__flowup__coral__orange;
+    }
+}
+
+.slide--ten{
+
+    .svg__fish {
+        animation: 10s 4s infinite;
+        animation-name: anim__deadzones__flowup__dead__fish;
+    }
+}
