@@ -73,3 +73,18 @@ gsap.to(".svg__bag--2, .svg__bag--3",{
         scrub: true,
     },
 })
+
+const scrollama_scroller = scrollama()
+    .setup({
+        step: ".SVG__slide__six__container"
+    })
+    .onStepEnter(r => {
+        document.querySelector(".thermometer__animpart__container:nth-child(1)").classList.add("slide__seven__anim--start");
+        document.querySelector(".thermometer__animpart__container:nth-child(2)").classList.add("slide__seven__anim--start");
+        document.querySelector(".slide__six__thermometer__red").classList.add("slide__seven__anim--start");})
+    .onStepLeave(r => {
+        document.querySelector(".thermometer__animpart__container:nth-child(1)").classList.remove("slide__seven__anim--start");
+        document.querySelector(".thermometer__animpart__container:nth-child(2)").classList.remove("slide__seven__anim--start");
+        document.querySelector(".slide__six__thermometer__red").classList.remove("slide__seven__anim--start");
+
+    })

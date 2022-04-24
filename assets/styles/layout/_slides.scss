@@ -150,7 +150,11 @@
 
     // Slide five -- Text container size for easier positioning of svgs
     .slide__five__text__container {
+        position: relative;
         height: 20vh;
+        width: 30vw;
+        top: 10vh;
+        margin: auto;
     }
 
     // Slide five -- Svg container size and flex
@@ -388,7 +392,15 @@
 
     // Slide six -- makes textcontainer to easier position svgs
     .slide__six__text__container {
+        position: relative;
         height: 20vh;
+        width: 30vw;
+        top: 30vh;
+        margin: auto;
+    }
+
+    .slide__seven__anim--start{
+        animation-play-state:running !important;
     }
 
     // Slide six -- SVG size 
@@ -410,8 +422,11 @@
             top: 47vh;
             left: 27vh;
             transform: rotate(120deg);
-            animation: 15s 0s linear;
+            animation: 15s 0s linear 1;
             animation-name: anim__thermometer__fall__left;
+            animation-play-state: paused;
+            
+            
         
 
             // Slide six -- Thermometer positioning, size, visibility and animation
@@ -433,8 +448,9 @@
 
                 z-index: 4;
                 
-                animation: 15s 0s;
+                animation: 15s 0s 0;
                 animation-name: anim__slide__six__thermometer__red;
+                
                 
             }
 
@@ -453,8 +469,9 @@
             left: 207vh;
 		    transform: rotate(120deg);
 
-            animation: 15s 0s linear;
+            animation: 15s 0s linear 1;
             animation-name: anim__thermometer__fall__right;
+            animation-play-state: paused;
         
 
             // Slide six -- Thermometer positioning, size, visibility and animation
@@ -519,6 +536,11 @@
     // Setts the height for slide seven text container to position svgs at bottom
     .slide__seven__text {
         height: 50vh;
+        position: relative;
+        
+        width: 30vw;
+        top: 10vh;
+        margin: auto;
     }
     
     // Helps position svg container at bottom of slide
