@@ -19,9 +19,7 @@
 
 
 // ! Temporarily setting the max width of svg's so they don't clutter the workspace
-.svg__bag,
-#svg__boat,
-.svg__fish {
+#svg__boat {
     max-width: 200px;
 }
 
@@ -82,9 +80,8 @@
 
 }
 
-// * Wave used as the water line
+// Wave used as the water line
 #svg__wave {
-
     fill: colors.$bg-primary;
 
     // Setting the aspect ratio to the same as the original .svg
@@ -94,6 +91,50 @@
     // Using absolute positioning to position the element at the bottom of the viewport
     position: absolute;
     bottom: 0;
+}
+
+.slide--three {
+    overflow: hidden;
+
+    // TODO: Needs to make the fish not be able to cover the text in the slide. 
+    .svg__fish {
+        width: 250px;
+        position: relative;
+        top: 100px;
+        left: 100px;
+    }
+
+    .hidden {
+        visibility: hidden;
+        opacity: 0;
+        transition: visibility 0s 2s, opacity 2s linear;
+      }
+}
+
+.slide--four {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .slide__four--article {
+        margin-inline: 5vw;
+        max-width: 70ch;
+    }
+    
+    .svg__bag {
+        width: 150px;
+        position: relative;
+        margin: 2vw;
+    }
+
+    .svg__bag--1, 
+    .svg__bag--3 {
+        top: -10vh;
+    }
+    .svg__bag--2,
+    .svg__bag--4 {
+        top: 20vh;
+    }
 }
 
 // Section for styling and animating slide five
