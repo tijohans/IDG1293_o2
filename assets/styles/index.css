@@ -1399,4 +1399,25 @@ p {
 .underwater {
   background: rgb(146, 215, 231);
   background: linear-gradient(180deg, rgb(146, 215, 231) 0%, rgb(43, 53, 144) 100%);
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: #57487F;
+  }
+
+  .slide--one,
+.slide--two,
+.slide--three,
+.slide--four {
+    color: white;
+  }
+
+  .slide--two #svg__wave {
+    fill: #4D5FA7;
+  }
+
+  .underwater {
+    background: linear-gradient(180deg, #4D5FA7 0%, rgb(43, 53, 144) 100%);
+  }
 }/*# sourceMappingURL=index.css.map */

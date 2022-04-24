@@ -482,14 +482,10 @@
             transform: rotate(120deg);
             animation: 15s 0s linear 1;
             animation-name: anim__thermometer__fall__left;
-<<<<<<< HEAD
-
-=======
             animation-play-state: paused;
             
             
         
->>>>>>> 550c2b518bd6c346bfb8bafe4c9730a32d7c5b4c
 
             // Slide six -- Thermometer positioning, size, visibility and animation
             .SVG__slide__six__thermometer:nth-child(1) {
@@ -509,18 +505,11 @@
                 left: 23.3vh;
 
                 z-index: 4;
-<<<<<<< HEAD
-
-                animation: 15s 0s;
-                animation-name: anim__slide__six__thermometer__red;
-
-=======
                 
                 animation: 15s 0s 0;
                 animation-name: anim__slide__six__thermometer__red;
                 
                 
->>>>>>> 550c2b518bd6c346bfb8bafe4c9730a32d7c5b4c
             }
 
             // Slide six -- Broken thermometer positioning, size, visibility and animation
@@ -540,12 +529,8 @@
 
             animation: 15s 0s linear 1;
             animation-name: anim__thermometer__fall__right;
-<<<<<<< HEAD
-
-=======
             animation-play-state: paused;
         
->>>>>>> 550c2b518bd6c346bfb8bafe4c9730a32d7c5b4c
 
             // Slide six -- Thermometer positioning, size, visibility and animation
             .SVG__slide__six__thermometer:nth-child(1) {
