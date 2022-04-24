@@ -847,7 +847,11 @@ footer {
   color: red;
 }
 .slide--five .slide__five__text__container {
+  position: relative;
   height: 20vh;
+  width: 30vw;
+  top: 10vh;
+  margin: auto;
 }
 .slide--five .slide__five__svg__container {
   position: relative;
@@ -1069,7 +1073,15 @@ footer {
   overflow: hidden;
 }
 .slide--six .slide__six__text__container {
+  position: relative;
   height: 20vh;
+  width: 30vw;
+  top: 30vh;
+  margin: auto;
+}
+.slide--six .slide__seven__anim--start {
+  -webkit-animation-play-state: running !important;
+          animation-play-state: running !important;
 }
 .slide--six .SVG__slide__six__container {
   height: 75vh;
@@ -1085,10 +1097,12 @@ footer {
   top: 47vh;
   left: 27vh;
   transform: rotate(120deg);
-  -webkit-animation: 15s 0s linear;
-          animation: 15s 0s linear;
+  -webkit-animation: 15s 0s linear 1;
+          animation: 15s 0s linear 1;
   -webkit-animation-name: anim__thermometer__fall__left;
           animation-name: anim__thermometer__fall__left;
+  -webkit-animation-play-state: paused;
+          animation-play-state: paused;
 }
 .slide--six .SVG__slide__six__container .thermometer__animpart__container:nth-child(1) .SVG__slide__six__thermometer:nth-child(1) {
   position: relative;
@@ -1103,8 +1117,8 @@ footer {
   top: -169vh;
   left: 23.3vh;
   z-index: 4;
-  -webkit-animation: 15s 0s;
-          animation: 15s 0s;
+  -webkit-animation: 15s 0s 0;
+          animation: 15s 0s 0;
   -webkit-animation-name: anim__slide__six__thermometer__red;
           animation-name: anim__slide__six__thermometer__red;
 }
@@ -1118,10 +1132,12 @@ footer {
   top: 0vh;
   left: 207vh;
   transform: rotate(120deg);
-  -webkit-animation: 15s 0s linear;
-          animation: 15s 0s linear;
+  -webkit-animation: 15s 0s linear 1;
+          animation: 15s 0s linear 1;
   -webkit-animation-name: anim__thermometer__fall__right;
           animation-name: anim__thermometer__fall__right;
+  -webkit-animation-play-state: paused;
+          animation-play-state: paused;
 }
 .slide--six .SVG__slide__six__container .thermometer__animpart__container:nth-child(2) .SVG__slide__six__thermometer:nth-child(1) {
   position: relative;
@@ -1165,6 +1181,10 @@ footer {
 }
 .slide--seven .slide__seven__text {
   height: 50vh;
+  position: relative;
+  width: 30vw;
+  top: 10vh;
+  margin: auto;
 }
 .slide--seven .slide__seven__positioning__container {
   width: 100vw;
