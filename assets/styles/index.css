@@ -1304,8 +1304,8 @@ footer {
 .slide--eight .svg__fish {
   width: 250px;
   position: relative;
-  top: 80px;
-  left: 50px;
+  top: 100px;
+  left: 100px;
 }
 
 .slide--eight .svg_skull {
@@ -1313,6 +1313,20 @@ footer {
   position: relative;
   top: 80px;
   left: 50px;
+}
+
+.slide--nine .algae_svg{
+  width: 250px;
+  position: relative;
+  top: 80px;
+  left: 50px;
+}
+
+.slide--ten .svg__fish {
+  width: 250px;
+  position: relative;
+  top: 100px;
+  left: 100px;
 }
 
 html,
