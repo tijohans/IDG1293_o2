@@ -46,9 +46,12 @@ positionFishes();
 // gsap animation to fade fish out
 // TODO: This need polish, it works but needs to reset when exiting the screen
 gsap.to(".svg__fish", {
-    scrollTrigger: ".svg__fish",
-    opacity: 0.2,
-    duration: 5,
+    scrollTrigger: {
+        trigger: ".svg__fish",
+        toggleActions: "restart reverse restart reverse"
+    },
+    opacity: 0,
+    duration: 3,
 })
 
 
@@ -71,5 +74,15 @@ gsap.to(".svg__bag--2, .svg__bag--3",{
     scrollTrigger: {
         trigger: ".svg__bag",
         scrub: true,
+    },
+})
+
+gsap.to("#svg__boat", {
+    xPercent: -200,
+    duration: 4,
+    scrollTrigger: {
+        trigger: "#svg__boat",
+        start: "top 80%",
+        toggleActions: "play none none reset",
     },
 })
