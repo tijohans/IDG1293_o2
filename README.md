@@ -52,3 +52,7 @@ http://jsfiddle.net/tiffhockin/fesvq8u0/
 
 Information about prefers reduced motion
 https://web.dev/prefers-reduced-motion/
+
+Informational text used on the site:
+https://www.regimeshifts.org/item/567-fisheries-collapse
+https://ocean.org/blog/the-role-of-small-scale-fisheries/

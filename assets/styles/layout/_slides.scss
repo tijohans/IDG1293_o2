@@ -87,6 +87,10 @@
     // Overflow needs to be hidden since the boat is positioned to the left of the viewport
     overflow: hidden;
 
+    .slide__two__article {
+        max-width: 70ch;
+        text-align: center;
+    }
 
     // Wave used as the water line
     #svg__wave {
@@ -94,9 +98,9 @@
 
         // Setting the aspect ratio to the same as the original .svg, getting the aspect ratio from the viewbox attribute
         aspect-ratio: 960 / 300;
-        width: 100%;
+        width: 100vw;
 
-        // Using absolute positioning to position the element at the bottom of the viewport
+        // Using relative positioning to position the element at the bottom of the viewport
         position: relative;
         margin-top: auto;
 
@@ -108,7 +112,7 @@
         // Positioning the boat of screen to the left, so it can be animated on screen with gsap
         position: relative;
         left: 110%;
-        top: 45vh;
+        top: 40vh;
 
         width: 700px;
 
@@ -122,12 +126,18 @@
 .slide--three {
     overflow: hidden;
 
-    // TODO: Needs to make the fish not be able to cover the text in the slide. 
+    .slide__three__article {
+        max-width: 65ch;
+        z-index: 2;
+        text-align: center;
+    }
+
     .svg__fish {
         width: 250px;
         position: relative;
         top: 100px;
         left: 100px;
+        z-index: 1;
     }
 
     .hidden {
