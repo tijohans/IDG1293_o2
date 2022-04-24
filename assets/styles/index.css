@@ -826,9 +826,9 @@ footer {
 }
 .slide--two #svg__boat {
   position: relative;
-  width: 700px;
-  top: 45vh;
   left: 110%;
+  top: 45vh;
+  width: 700px;
   z-index: 1;
 }
 

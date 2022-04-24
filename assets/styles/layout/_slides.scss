@@ -83,6 +83,8 @@
 .slide--two {
     display: flex;
     flex-direction: column;
+
+    // Overflow needs to be hidden since the boat is positioned to the left of the viewport
     overflow: hidden;
 
 
@@ -90,21 +92,27 @@
     #svg__wave {
         fill: colors.$bg-primary;
 
-        // Setting the aspect ratio to the same as the original .svg
+        // Setting the aspect ratio to the same as the original .svg, getting the aspect ratio from the viewbox attribute
         aspect-ratio: 960 / 300;
         width: 100%;
 
         // Using absolute positioning to position the element at the bottom of the viewport
         position: relative;
         margin-top: auto;
+
+        // Setting z-index to 0 so the boat svg can appear ahead
         z-index: 0;
     }
 
     #svg__boat {
+        // Positioning the boat of screen to the left, so it can be animated on screen with gsap
         position: relative;
-        width: 700px;
-        top: 45vh;
         left: 110%;
+        top: 45vh;
+
+        width: 700px;
+
+        // Setting z-index to 1 so it appears ahead of the wave svg
         z-index: 1;
     }
 }

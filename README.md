@@ -28,7 +28,7 @@ You could also create a pull request right here on the github repo.
 
 ## Which technology is used
 
-The technology we are using for this project is mainly SCSS and the Intersecton Observer API for javascript. We are using SCSS to style all the visible parts of the project, and create the animations which is used on the website. We are using Intersection Observer to observe different elements and check if they are inside the viewport, and when they are inside the viewport we can select them to be animated. The animations are mainly created with CSS keyframes, and are stored in the _animations.scss folder. We are also using the BEM naming convention for all our scss. BEM stands for **B**lock **E**lement **M**odifier, and is useful for maintaining similar naming conventions.
+The technology we are using for this project is mainly SCSS and the Gsap animation building tool for javascript. We are using SCSS to style all the visible parts of the project, and create the animations which is used on the website. We are using GSAP to observe different elements and check if they are inside the viewport, and when they are inside the viewport we can select them to be animated. The animations are made up of a mix of css keyframe animations, and animations using the GSAP animation tool. The keyframe animations are stored in the _animations.svss file, and the GSAP animations are stored in the app.js file. We are also using the BEM naming convention for all our scss. BEM stands for **B**lock **E**lement **M**odifier, and is useful for maintaining similar naming conventions.
 
 ## Who maintains and contributes to the project
 
@@ -37,14 +37,18 @@ The project is mainly maintaned by the three of us who made the project. There a
 
 ### Sources 
 
-This site was used to generate some simple keyframe animations:
+Site used to generate some simple keyframe animations: 
 https://webcode.tools/generators/css/keyframe-animation
 
+Sources we found usefull for troubleshooting different issues along the way: 
 https://stackoverflow.com/questions/53416348/css-scroll-snapping-vertical-not-working
 https://stackoverflow.com/questions/17295219/overflow-scroll-css-is-not-working-in-the-div
 https://stackoverflow.com/questions/15907079/css3-transition-fade-out-effect
 
 
-Try to use this to position fish on slide three randomly
+Resource used as inspiration for the random positioning of the fish:
 http://jsfiddle.net/tiffhockin/fesvq8u0/
 
+
+Information about prefers reduced motion
+https://web.dev/prefers-reduced-motion/

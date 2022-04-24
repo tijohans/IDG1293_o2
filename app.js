@@ -77,6 +77,7 @@ gsap.to(".svg__bag--2, .svg__bag--3",{
     },
 })
 
+// Animation for sliding boat on screen
 gsap.to("#svg__boat", {
     xPercent: -200,
     duration: 4,
