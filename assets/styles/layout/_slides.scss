@@ -19,7 +19,6 @@
 
 
 // ! Temporarily setting the max width of svg's so they don't clutter the workspace
-.svg__bag,
 #svg__boat {
     max-width: 200px;
 }
@@ -111,6 +110,31 @@
         opacity: 0;
         transition: visibility 0s 2s, opacity 2s linear;
       }
+}
+
+.slide--four {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    article {
+        margin-inline: 5vw;
+    }
+    
+    .svg__bag {
+        width: 150px;
+        position: relative;
+        margin: 2vw;
+    }
+
+    .svg__bag--1, 
+    .svg__bag--3 {
+        top: -10vh;
+    }
+    .svg__bag--2,
+    .svg__bag--4 {
+        top: 20vh;
+    }
 }
 
 // Section for styling and animating slide five

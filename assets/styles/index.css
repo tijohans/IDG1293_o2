@@ -397,7 +397,6 @@ footer {
   margin-left: 2vw;
 }
 
-.svg__bag,
 #svg__boat {
   max-width: 200px;
 }
@@ -460,6 +459,28 @@ footer {
   visibility: hidden;
   opacity: 0;
   transition: visibility 0s 2s, opacity 2s linear;
+}
+
+.slide--four {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.slide--four article {
+  margin-inline: 5vw;
+}
+.slide--four .svg__bag {
+  width: 150px;
+  position: relative;
+  margin: 2vw;
+}
+.slide--four .svg__bag--1,
+.slide--four .svg__bag--3 {
+  top: -10vh;
+}
+.slide--four .svg__bag--2,
+.slide--four .svg__bag--4 {
+  top: 20vh;
 }
 
 .slide--five {

@@ -43,9 +43,32 @@ const getRandomNumber = (min, max) => {
 
 positionFishes();
 
+// gsap animation to fade fish out
 // TODO: This need polish, it works but needs to reset when exiting the screen
 gsap.to(".svg__fish", {
     scrollTrigger: ".svg__fish",
-    opacity: 0,
+    opacity: 0.2,
     duration: 5,
+})
+
+// TODO: This is not done, needs work
+// gsap animation for "parallax" effect on the bags 
+gsap.to(".svg__bag--1, .svg__bag--4",{
+    yPercent: -50,
+    ease: "none",
+    scrollTrigger: {
+        trigger: ".svg__bag",
+        markers: true,
+        scrub: true,
+    },
+})
+
+gsap.to(".svg__bag--2, .svg__bag--3",{
+    yPercent: -75,
+    ease: "none",
+    scrollTrigger: {
+        trigger: ".svg__bag",
+        markers: true,
+        scrub: true,
+    },
 })
