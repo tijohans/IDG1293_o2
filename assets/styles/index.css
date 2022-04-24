@@ -1320,6 +1320,7 @@ footer {
   position: relative;
   top: 80px;
   left: 50px;
+  color: green;
 }
 
 .slide--ten .svg__fish {
@@ -1327,6 +1328,7 @@ footer {
   position: relative;
   top: 100px;
   left: 100px;
+  transform: rotate(180deg);
 }
 
 html,
