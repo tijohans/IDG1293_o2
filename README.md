@@ -52,6 +52,7 @@ http://jsfiddle.net/tiffhockin/fesvq8u0/
 
 Information about prefers reduced motion
 https://web.dev/prefers-reduced-motion/
+https://medium.com/@jonjahr/conditionally-enabling-animations-using-prefers-reduced-motion-2f15aae9eab5
 
 Informational text used on the site:
 https://www.regimeshifts.org/item/567-fisheries-collapse

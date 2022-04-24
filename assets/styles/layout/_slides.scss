@@ -187,7 +187,11 @@
 
     // Slide five -- Text container size for easier positioning of svgs
     .slide__five__text__container {
+        position: relative;
         height: 20vh;
+        width: 30vw;
+        top: 10vh;
+        margin: auto;
     }
 
     // Slide five -- Svg container size and flex
@@ -446,7 +450,15 @@
 
     // Slide six -- makes textcontainer to easier position svgs
     .slide__six__text__container {
+        position: relative;
         height: 20vh;
+        width: 30vw;
+        top: 30vh;
+        margin: auto;
+    }
+
+    .slide__seven__anim--start{
+        animation-play-state:running !important;
     }
 
     // Slide six -- SVG size 
@@ -468,9 +480,16 @@
             top: 47vh;
             left: 27vh;
             transform: rotate(120deg);
-            animation: 15s 0s linear;
+            animation: 15s 0s linear 1;
             animation-name: anim__thermometer__fall__left;
+<<<<<<< HEAD
 
+=======
+            animation-play-state: paused;
+            
+            
+        
+>>>>>>> 550c2b518bd6c346bfb8bafe4c9730a32d7c5b4c
 
             // Slide six -- Thermometer positioning, size, visibility and animation
             .SVG__slide__six__thermometer:nth-child(1) {
@@ -490,10 +509,18 @@
                 left: 23.3vh;
 
                 z-index: 4;
+<<<<<<< HEAD
 
                 animation: 15s 0s;
                 animation-name: anim__slide__six__thermometer__red;
 
+=======
+                
+                animation: 15s 0s 0;
+                animation-name: anim__slide__six__thermometer__red;
+                
+                
+>>>>>>> 550c2b518bd6c346bfb8bafe4c9730a32d7c5b4c
             }
 
             // Slide six -- Broken thermometer positioning, size, visibility and animation
@@ -511,9 +538,14 @@
             left: 207vh;
             transform: rotate(120deg);
 
-            animation: 15s 0s linear;
+            animation: 15s 0s linear 1;
             animation-name: anim__thermometer__fall__right;
+<<<<<<< HEAD
 
+=======
+            animation-play-state: paused;
+        
+>>>>>>> 550c2b518bd6c346bfb8bafe4c9730a32d7c5b4c
 
             // Slide six -- Thermometer positioning, size, visibility and animation
             .SVG__slide__six__thermometer:nth-child(1) {
@@ -577,6 +609,11 @@
     // Setts the height for slide seven text container to position svgs at bottom
     .slide__seven__text {
         height: 50vh;
+        position: relative;
+        
+        width: 30vw;
+        top: 10vh;
+        margin: auto;
     }
 
     // Helps position svg container at bottom of slide
