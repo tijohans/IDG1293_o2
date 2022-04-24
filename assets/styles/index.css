@@ -1301,6 +1301,20 @@ footer {
           animation-name: anim__deadzones__flowup__dead__fish;
 }
 
+.slide--eight .svg__fish {
+  width: 250px;
+  position: relative;
+  top: 80px;
+  left: 50px;
+}
+
+.slide--eight .svg_skull {
+  width: 250px;
+  position: relative;
+  top: 80px;
+  left: 50px;
+}
+
 html,
 body {
   margin: 0;
