@@ -1434,9 +1434,57 @@ footer {
 .slide--ten {
   text-align: center;
   overflow: hidden;
+  
+}
+
+.slide--ten .svg__fish .cls-1 {
+  fill: #7a9a9b;
+}
+.slide--ten .svg__fish .cls-2 {
+  fill: #6b8d8c;
+}
+.slide--ten .svg__fish .cls-3 {
+  fill: #695450;
+}
+.slide--ten .svg__fish .cls-4 {
+  fill: #073127;
+}
+.slide--ten .svg__fish .cls-5 {
+  fill: #08352a;
+}
+.slide--ten .svg__fish .cls-6 {
+  fill: #696867;
+}
+.slide--ten .svg__fish .cls-7 {
+  fill: #577c79;
+}
+.slide--ten .svg__fish .cls-8 {
+  fill: #365854;
+}
+.slide--ten .svg__fish .cls-9 {
+  fill: #1a4b40;
+}
+.slide--ten .svg__fish .cls-10 {
+  fill: #264b44;
+}
+.slide--ten .svg__fish .cls-11 {
+  fill: #0d3b31;
+}
+.slide--ten .svg__fish .cls-12 {
+  fill: #808080;
+}
+.slide--ten .svg__fish .cls-13 {
+  fill: #084134;
+}
+.slide--ten .svg__fish .cls-14 {
+  fill: #104d3e;
+}
+.slide--ten .svg__fish .cls-15 {
+  fill: #12332a;
 }
 
 .slide--ten .svg__fish {
+  opacity: 0.2;
   width: 250px;
   position: relative;
   top: 100px;
