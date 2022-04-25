@@ -663,8 +663,9 @@
         animation-name: anim__deadzones__flowup__coral__orange;
     }
     .svg_skull2{
-        animation: 10s 3s infinite;
-        animation-name: anim__deadzones__flowup__coral__orange;
+        animation: seagullMove_anim 4s ease-out 0s normal forwards;
+        position: relative;
+        left: 100vw;
     }
 }
 

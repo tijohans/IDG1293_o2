@@ -1315,15 +1315,15 @@ footer {
 .slide--eight .svg_skull1 {
   width: 250px;
   position: relative;
-  top: 80px;
-  left: 50px;
+  top: 100px;
+  left: 100px;
 }
 
 .slide--eight .svg_skull2 {
   width: 250px;
   position: relative;
-  top: 80px;
-  left: 50px;
+  top: 100px;
+  left: 100px;
 }
 
 .slide--nine {
@@ -1333,9 +1333,16 @@ footer {
 .slide--nine .algae_svg{
   width: 250px;
   position: relative;
-  top: 80px;
-  left: 50px;
-  color: green;
+  top: 100px;
+  left: 100px;
+}
+
+.slide--nine .O2{
+  width: 250px;
+  position: relative;
+  top: 100px;
+  left: 100px;
+  color: white;
 }
 
 .slide--ten {
