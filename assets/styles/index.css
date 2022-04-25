@@ -1319,11 +1319,13 @@ footer {
   left: 100px;
 }
 
-.slide--eight .svg_skull2 {
-  width: 250px;
+
+
+.ACP{
   position: relative;
-  top: 100px;
-  left: 100px;
+  margin-top: 20vh;
+  font-size: 2vh;
+  max-width: 65ch;
 }
 
 .slide--nine {
@@ -1337,12 +1339,35 @@ footer {
   left: 100px;
 }
 
-.slide--nine .O2{
+.slide--nine .O2a{
   width: 250px;
   position: relative;
-  top: 100px;
-  left: 100px;
+  top: -5vh;
+  left: 35vh;
   color: white;
+}
+
+.slide--nine .O2b{
+  width: 250px;
+  position: relative;
+  top: -5vh;
+  left: 15vh;
+  color: white;
+}
+
+.slide--nine .O2c{
+  width: 250px;
+  position: relative;
+  top: -10vh;
+  left: 60vh;
+  color: white;
+}
+
+.EUP{
+  position: relative;
+  margin-top: 20vh;
+  font-size: 2vh;
+  max-width: 65ch;
 }
 
 .slide--ten {
@@ -1355,6 +1380,13 @@ footer {
   top: 100px;
   left: 100px;
   transform: rotate(180deg);
+}
+
+.MBP{
+  position: relative;
+  margin-top: 20vh;
+  font-size: 4vh;
+  text-align: center;
 }
 
 html,

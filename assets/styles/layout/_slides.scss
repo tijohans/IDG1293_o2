@@ -658,18 +658,38 @@
 }
 
 .slide--eight{
+
+    display: flex;
+
     .svg_skull1{
         animation: 10s 3s infinite;
         animation-name: anim__deadzones__flowup__coral__orange;
     }
-    .svg_skull2{
+    
+}
+
+.slide--nine{
+
+    display: flex;
+
+    .O2a{
+    animation: seagullMove_anim 4s ease-out 0s normal forwards;
+    position: relative;
+    left: 100vw;
+    }
+
+    .O2b{
         animation: seagullMove_anim 4s ease-out 0s normal forwards;
         position: relative;
         left: 100vw;
-    }
+        }
+    
+
 }
 
 .slide--ten{
+
+    display: flex;
 
     .svg__fish {
         animation: 10s 4s infinite;
