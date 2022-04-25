@@ -1362,6 +1362,94 @@ footer {
           animation-name: anim__deadzones__flowup__dead__fish;
 }
 
+.slide--eight {
+  overflow: hidden;
+}
+
+.slide--eight .svg__fish {
+  width: 250px;
+  position: relative;
+  top: 100px;
+  left: 100px;
+}
+
+.slide--eight .svg_skull1 {
+  width: 250px;
+  position: relative;
+  top: 100px;
+  left: 100px;
+}
+
+
+
+.ACP{
+  position: relative;
+  margin-top: 20vh;
+  font-size: 2vh;
+  max-width: 65ch;
+}
+
+.slide--nine {
+  overflow: hidden;
+}
+
+.slide--nine .algae_svg{
+  width: 250px;
+  position: relative;
+  top: 100px;
+  left: 100px;
+}
+
+.slide--nine .O2a{
+  width: 250px;
+  position: relative;
+  top: -5vh;
+  left: 35vh;
+  color: white;
+}
+
+.slide--nine .O2b{
+  width: 250px;
+  position: relative;
+  top: -5vh;
+  left: 15vh;
+  color: white;
+}
+
+.slide--nine .O2c{
+  width: 250px;
+  position: relative;
+  top: -10vh;
+  left: 60vh;
+  color: white;
+}
+
+.EUP{
+  position: relative;
+  margin-top: 20vh;
+  font-size: 2vh;
+  max-width: 65ch;
+}
+
+.slide--ten {
+  overflow: hidden;
+}
+
+.slide--ten .svg__fish {
+  width: 250px;
+  position: relative;
+  top: 100px;
+  left: 100px;
+  transform: rotate(180deg);
+}
+
+.MBP{
+  position: relative;
+  margin-top: 20vh;
+  font-size: 4vh;
+  text-align: center;
+}
+
 html,
 body {
   margin: 0;
